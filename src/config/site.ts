@@ -25,7 +25,7 @@ export const siteConfig: SiteConfig = {
   tagline: "Dark Fairy-Tale Metroidvania Guides",
   description: "Complete Well Dweller wiki with bosses, trinkets, spirits, abilities, maps, walkthroughs, achievements, collectibles and beginner tips for every player.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://welldweller.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://welldweller.top").hostname.replace(/^www\./, "")}`,
+  supportEmail: "support@welldweller.top",
   gameUrl: "https://store.steampowered.com/app/3699590/Well_Dweller/",
   heroVideoId: "fFnYryNgaEQ", // Well Dweller - Official Launch Trailer
   social: {
