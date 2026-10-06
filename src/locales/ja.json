@@ -1,1 +1,533 @@
-{}
+{
+  "site": {
+    "name": "Well Dweller Wiki",
+    "shortName": "Well Dweller",
+    "tagline": "ダークなおとぎ話風メトロイドヴァニアの攻略ガイド",
+    "description": "ボス、トリンケット、スピリット、アビリティ、マップ、攻略チャート、実績、収集要素、初心者向けのヒントを網羅した Well Dweller の完全ウィキ。",
+    "legalNotice": "非公式ファンウィキ。プレイヤーがプレイヤーのために作成しています。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "menu": "メニュー",
+    "toggleTheme": "テーマ切り替え",
+    "guide": "ガイド",
+    "maps": "マップ",
+    "items": "アイテム",
+    "combat": "戦闘",
+    "mechanics": "メカニクス",
+    "platforms": "プラットフォーム",
+    "info": "情報"
+  },
+  "guide": {
+    "overviewTitle": "Well Dweller ガイド",
+    "overviewDescription": "降下の各段階に対応した、ステップバイステップのガイド、攻略チャート、初心者向けヒント、ボス攻略、エンディング、タイムアタックのルートを掲載。"
+  },
+  "maps": {
+    "overviewTitle": "Well Dweller マップ",
+    "overviewDescription": "井戸の中のすべての名称付きエリア、隠し通路、ショートカットを網羅した Well Dweller の完全マップ。"
+  },
+  "items": {
+    "overviewTitle": "Well Dweller アイテム",
+    "overviewDescription": "Well Dweller の全トリンケット、スピリットの欠片、跳ねる瓶、ストーリーページの入手場所・効果・用途をまとめました。"
+  },
+  "combat": {
+    "overviewTitle": "Well Dweller 戦闘",
+    "overviewDescription": "攻撃パターン、フェーズごとの立ち回り、勝利につながるトリンケットとアビリティを解説する Well Dweller のボスガイド。"
+  },
+  "mechanics": {
+    "overviewTitle": "Well Dweller メカニクス",
+    "overviewDescription": "移動アビリティ、Soar の強化、難易度設定、ハードモードのルールを Well Dweller 向けに解説。"
+  },
+  "platforms": {
+    "overviewTitle": "Well Dweller 対応プラットフォーム",
+    "overviewDescription": "Switch、Switch 2、PS5、Xbox、Steam 向けの Well Dweller プラットフォームガイド。性能やバージョン情報も掲載。"
+  },
+  "info": {
+    "overviewTitle": "Well Dweller 情報",
+    "overviewDescription": "Well Dweller の発売日、価格、プレイ時間、開発元情報、レビュー、体験版の感想、メトロイドヴァニア比較。"
+  },
+  "home": {
+    "meta": {
+      "title": "Well Dweller Wiki - ボス・トリンケット・攻略",
+      "description": "ボス、トリンケット、スピリット、アビリティ、マップ、攻略チャート、実績、収集要素、初心者向けのヒントを網羅した Well Dweller の完全ウィキ。"
+    },
+    "hero": {
+      "eyebrow": "ダークなおとぎ話風メトロイドヴァニア",
+      "title": "Well Dweller Wiki",
+      "description": "マッチ棒を手にした小さな鳥グリマーとなって、ダークなおとぎ話風メトロイドヴァニアを探索。魔物と戦い、謎を解き、トリンケットを集め、朽ち果てた王国の謎を解き明かそう。",
+      "stats": [
+        "ボス13体",
+        "トリンケット32種",
+        "スピリット20種",
+        "2026-09-22 発売"
+      ],
+      "primaryCta": "初心者ガイド",
+      "secondaryCta": "ボス一覧",
+      "tertiaryCta": "Steam でプレイ",
+      "videoLabel": "公式トレーラー"
+    },
+    "updates": {
+      "title": "最新アップデート",
+      "browse": "すべてのガイドを見る",
+      "viewAll": "すべて表示"
+    },
+    "start": {
+      "eyebrow": "はじめに",
+      "title": "Well Dweller の旅",
+      "cards": [
+        {
+          "number": "1",
+          "title": "初心者ガイド",
+          "description": "最初の降下から Well Dweller の基本サイクルを学びましょう。移動、戦闘、回復、セーブ、そして暗闇でグリマーを生き延びさせる序盤の習慣を解説します。"
+        },
+        {
+          "number": "2",
+          "title": "アビリティ & 移動",
+          "description": "グリマーのダイブ、ランジ、壁つかまり、Soar を解放し、それぞれが井戸の中の未到達ルートをどう切り開くかを確認しましょう。"
+        },
+        {
+          "number": "3",
+          "title": "ボス戦",
+          "description": "攻撃パターン、フェーズ移行、そして多くの失敗ランを終わらせる戦前チェックリストで、Well Dweller の13体のボスに備えましょう。"
+        },
+        {
+          "number": "4",
+          "title": "トリンケット & 収集要素",
+          "description": "32個のトリンケットに加え、スピリットの欠片、ストーリーページ、跳ねる瓶を集めてビルドを完成させ、コレクションを埋めましょう。"
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "人気ページ",
+      "title": "いま話題",
+      "quickLinks": [
+        "初心者ガイド",
+        "ボス一覧",
+        "トリンケット & スピリット",
+        "攻略チャート"
+      ],
+      "cards": [
+        {
+          "badge": "初心者",
+          "title": "初心者ガイド",
+          "description": "最初の降下から戦闘・セーブ・序盤の進行をマスターするまでに必要なすべて。",
+          "href": "/guide/welldweller-beginner-guide"
+        },
+        {
+          "badge": "人気",
+          "title": "ボス一覧",
+          "description": "攻撃パターン、フェーズごとの立ち回り、準備のコツをまとめた Well Dweller の全ボス戦。",
+          "href": "/guide/welldweller-all-bosses"
+        },
+        {
+          "badge": "更新済み",
+          "title": "トリンケット一覧",
+          "description": "効果・入手場所・プレイスタイル別のおすすめ装備をまとめた32種のトリンケットの系統別ガイド。",
+          "href": "/items/welldweller-all-trinkets"
+        },
+        {
+          "badge": "人気",
+          "title": "移動アビリティ",
+          "description": "グリマーのダイブ、ランジ、つかまり、Soar が探索と移動をどう変えるか。",
+          "href": "/mechanics/welldweller-movement-abilities"
+        },
+        {
+          "badge": "新着",
+          "title": "全体マップ",
+          "description": "名称付きエリア、ショートカット、隠し入口をすべて載せた井戸の完全マップ。",
+          "href": "/maps/welldweller-full-map"
+        },
+        {
+          "badge": "人気",
+          "title": "難易度ガイド",
+          "description": "Well Dweller の難易度を比較し、初回プレイに合う設定を確認しましょう。",
+          "href": "/mechanics/welldweller-difficulty"
+        },
+        {
+          "badge": "新着",
+          "title": "トゥルーエンディング",
+          "description": "Well Dweller のトゥルーエンディングを解放する分岐条件、準備チェックリスト、ルート。",
+          "href": "/guide/welldweller-true-ending"
+        },
+        {
+          "badge": "新着",
+          "title": "プレイ時間",
+          "description": "Well Dweller の初回クリアにかかる時間と、総プレイ時間を左右する要素。",
+          "href": "/info/welldweller-game-length"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Well Dweller とは？",
+      "paragraphs": [
+        "Well Dweller は、開発者の Kyle Thompson が手がけ、Top Hat Studios が販売したダークなおとぎ話風メトロイドヴァニアで、2026年9月22日に発売されました。プレイヤーはマッチ棒を一本手にした小さな鳥グリマーとなって、浸水した井戸や貯水槽、石張りの穴が広がる朽ちた王国へと降りていきます。そこでは光と炎が武器であり道しるべでもあります。",
+        "Well Dweller の進行は、アビリティの解放、トリンケットの収集、そして井戸の階層マップの習得によって進みます。本作は PC、PlayStation 5、Xbox、Nintendo Switch 向けに、13体のボス、32種のトリンケット、20種のスピリットを収録し、力任せよりも慎重な探索と正確な回避を報います。"
+      ],
+      "stats": [
+        {
+          "label": "開発元",
+          "value": "Kyle Thompson"
+        },
+        {
+          "label": "販売元",
+          "value": "Top Hat Studios"
+        },
+        {
+          "label": "プラットフォーム",
+          "value": "PC, PS5, Xbox, Switch"
+        },
+        {
+          "label": "ジャンル",
+          "value": "Dark Fairy-Tale Metroidvania"
+        },
+        {
+          "label": "発売日",
+          "value": "2026-09-22"
+        },
+        {
+          "label": "ボス",
+          "value": "13"
+        },
+        {
+          "label": "トリンケット",
+          "value": "32"
+        },
+        {
+          "label": "スピリット",
+          "value": "20"
+        }
+      ],
+      "cta": "すべてのガイドを見る"
+    },
+    "explore": {
+      "title": "Well Dweller ウィキを探索",
+      "description": "初心者ガイド、完全攻略チャート、ボス攻略、アビリティ、トリンケット、実績、難易度のアドバイス、アップデート情報をそろえて、井戸のあらゆる段階を攻略しましょう。",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Well Dweller 初心者ガイド",
+          "displayType": "step-by-step",
+          "description": "移動、探索、戦闘、回復、セーブ、進行といった Well Dweller の中核システムを初心者向けに紹介し、新しいプレイヤーが序盤でつまずかず力強く始められるようにします。",
+          "href": "/guide/welldweller-beginner-guide",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "イントロをプレイし、探索を始める前にすべての説明を読みましょう。"
+            },
+            {
+              "label": "2",
+              "detail": "自分の環境に合わせて操作を割り当て直し、音声と字幕を設定しましょう。"
+            },
+            {
+              "label": "3",
+              "detail": "グリマーの基本攻撃、回避、マッチ棒の明かりを覚えましょう。"
+            },
+            {
+              "label": "4",
+              "detail": "一度の探索で欲張らず、チェックポイントでこまめに進行を保存しましょう。"
+            },
+            {
+              "label": "5",
+              "detail": "序盤の資源は攻撃用と防御用の強化に1つずつ使いましょう。"
+            },
+            {
+              "label": "6",
+              "detail": "施錠された扉と一方通行の落下地点はメモして後の戻りに備えましょう。"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Well Dweller 攻略チャート",
+          "displayType": "card-list",
+          "description": "各降下層を図解し、井戸の謎を解き、物語を進める鍵となるエリアと遭遇へ導く、進行重視の攻略チャートです。",
+          "href": "/guide/welldweller-walkthrough",
+          "highlights": [
+            {
+              "label": "入口",
+              "detail": "降りる途中の目印、行き止まり、開いていない扉を記録しましょう。"
+            },
+            {
+              "label": "謎解き",
+              "detail": "部屋を出る前にスイッチの順番、レバーの状態、記号の位置をメモしましょう。"
+            },
+            {
+              "label": "資源",
+              "detail": "出現地点と再出現のタイミングを把握し、2回目の探索を無駄なく行いましょう。"
+            },
+            {
+              "label": "深層",
+              "detail": "最下層では一方通行の落下と後戻りできない選択に注意しましょう。"
+            },
+            {
+              "label": "終盤",
+              "detail": "狙ったエンディングに到達できるよう、分岐条件を早めに確認しましょう。"
+            },
+            {
+              "label": "戻り",
+              "detail": "施錠された扉はしおり代わりに記録し、鍵を入手したら戻りましょう。"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Well Dweller ボス",
+          "displayType": "card-list",
+          "description": "Well Dweller の13体の主要なボスについて、攻撃パターン、有効な戦術、そして壁を2回目の挑戦で勝てる戦いに変える準備をまとめたボスガイドです。",
+          "href": "/guide/welldweller-all-bosses",
+          "highlights": [
+            {
+              "label": "突進型",
+              "detail": "絶え間ない前進を回避でかわし、体勢を崩した隙を突きましょう。"
+            },
+            {
+              "label": "遠距離型",
+              "detail": "直線的に突っ込まず、弧を描いて距離を詰め、遮蔽物を使いましょう。"
+            },
+            {
+              "label": "召喚型",
+              "detail": "時間差で現れる雑魚を先に処理し、その後でボスにダメージを集中しましょう。"
+            },
+            {
+              "label": "フェーズ",
+              "detail": "フェーズ移行後10〜15秒はバースト攻撃を温存しましょう。"
+            },
+            {
+              "label": "準備",
+              "detail": "消耗品を補充し、ダメージ属性を合わせ、まずアリーナを下見しましょう。"
+            },
+            {
+              "label": "練習",
+              "detail": "攻撃せずに一度観察ランを行い、動き全体を読み切りましょう。"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Well Dweller アビリティ",
+          "displayType": "code-cards",
+          "description": "グリマーのアビリティと移動メカニクスの資料です。各解放が探索をどう変え、未到達だったルートをどう開くかを解説します。",
+          "href": "/mechanics/welldweller-movement-abilities",
+          "highlights": [
+            {
+              "label": "ダイブ",
+              "detail": "戦闘から下へ潜り、下で浮上して視線を切りましょう。"
+            },
+            {
+              "label": "ランジ",
+              "detail": "立ち位置から一動作で攻撃範囲まで踏み込みましょう。"
+            },
+            {
+              "label": "つかまり",
+              "detail": "濡れた石や木材につかまり、壁を垂直に移動しましょう。"
+            },
+            {
+              "label": "Soar",
+              "detail": "中盤で飛行アビリティを解放したら、広い隙間を滑空しましょう。"
+            },
+            {
+              "label": "ダッシュ",
+              "detail": "水流に乗る移動で水路を素早く渡りましょう。"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Well Dweller トリンケット",
+          "displayType": "tier-grid",
+          "description": "Well Dweller の32種のトリンケットとその他の有用な強化に焦点を当て、それぞれの効果、価値のある場面、ランに合う装備の組み方を解説します。",
+          "href": "/items/welldweller-all-trinkets",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "スピードランや収集を支える機動力と幸運のトリンケット。"
+            },
+            {
+              "label": "A",
+              "detail": "ほどのビルドにも合う攻撃と軽減の選択肢。"
+            },
+            {
+              "label": "B",
+              "detail": "長期遠征で輝く維持とユーティリティの選択肢。"
+            },
+            {
+              "label": "C",
+              "detail": "ファームランでのみ元が取れる状況依存の経済系トリンケット。"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Well Dweller 実績",
+          "displayType": "card-list",
+          "description": "Well Dweller の実績と解除に必要な実践的条件をまとめたコンプリートガイド。取り逃しやすい目標や効率的なルートも紹介します。",
+          "href": "/guide",
+          "highlights": [
+            {
+              "label": "収集",
+              "detail": "32個のトリンケット、スピリットの欠片、ストーリーページ、跳ねる瓶をすべて集めましょう。"
+            },
+            {
+              "label": "ボス",
+              "detail": "隠しボスを含む13体のボスをすべて倒しましょう。"
+            },
+            {
+              "label": "エンディング",
+              "detail": "別々のランでトゥルーエンディングとシークレットエンディングの両方に到達しましょう。"
+            },
+            {
+              "label": "探索",
+              "detail": "すべての名称付きエリアを見つけ、井戸のマップを完成させましょう。"
+            },
+            {
+              "label": "試練",
+              "detail": "やり込みとして任意のタイムアタックとチャレンジ部屋をクリアしましょう。"
+            },
+            {
+              "label": "ノーダメージ",
+              "detail": "最も難しいバッジのために、ダメージを受けずにボス戦を生き延びましょう。"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Well Dweller 難易度ガイド",
+          "displayType": "card-list",
+          "description": "Well Dweller の難易度設定を比較し、適切な段階の選び方をアドバイス。最も厳しい場面とハードモードへの備えも解説します。",
+          "href": "/mechanics/welldweller-difficulty",
+          "highlights": [
+            {
+              "label": "リラックス",
+              "detail": "ストーリー重視の初回プレイ向けに、敵が弱く資源も潤沢。"
+            },
+            {
+              "label": "スタンダード",
+              "detail": "多くのプレイヤーが始めるべき、想定されたバランス点。"
+            },
+            {
+              "label": "ベテラン",
+              "detail": "経験者向けに、敵のAIがより積極的で経済も厳しい。"
+            },
+            {
+              "label": "エクストリーム",
+              "detail": "上記に加え、コンプ勢向けに失敗条件がより厳しい。"
+            },
+            {
+              "label": "カスタム",
+              "detail": "段階を丸ごと変えるのではなく、個々の項目を調整。"
+            },
+            {
+              "label": "ハード",
+              "detail": "ハードモードは正確な回避を報い、ずさんな立ち位置を罰します。"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Well Dweller アップデート",
+          "displayType": "card-list",
+          "description": "公式修正、バランス調整、快適性の改善、既知の問題をまとめた簡潔なアップデート／パッチ追跡。問題がすでに対処済みか確認できます。",
+          "href": "/info/welldweller-developer",
+          "highlights": [
+            {
+              "label": "パッチ",
+              "detail": "公式パッチノートを読み、何が変わり何が意図どおりかを確認しましょう。"
+            },
+            {
+              "label": "バランス",
+              "detail": "どのビルドやトリンケットが最強かを左右する強化と弱体化を追いましょう。"
+            },
+            {
+              "label": "修正",
+              "detail": "クラッシュや進行不能を報告する前に既知の問題リストを確認しましょう。"
+            },
+            {
+              "label": "快適性",
+              "detail": "戻りやメニューの手間を減らす快適性アップデートを追いましょう。"
+            },
+            {
+              "label": "体験版",
+              "detail": "変更を確認する際は体験版ビルドと製品版を比較しましょう。"
+            },
+            {
+              "label": "ロードマップ",
+              "detail": "開発ブログを追い、次に何が作られるかを確認しましょう。"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "よくある質問",
+      "description": "Well Dweller に関する最もよくある質問への手早い回答。",
+      "items": [
+        {
+          "question": "Well Dweller とは？",
+          "answer": "Well Dweller は、開発者 Kyle Thompson と販売元 Top Hat Studios によるダークなおとぎ話風メトロイドヴァニアです。プレイヤーはマッチ棒を手にした小さな鳥グリマーとなって、浸水した井戸が広がる朽ちた王国を探索し、ボスと戦い、トリンケットを集めます。"
+        },
+        {
+          "question": "Well Dweller はどのプラットフォームで遊べますか？",
+          "answer": "Well Dweller は2026年9月22日に PC、PlayStation 5、Xbox、Nintendo Switch 向けに発売されました。"
+        },
+        {
+          "question": "Well Dweller のボスは何体いますか？",
+          "answer": "Well Dweller には13体のボスがいます。回避のタイミングを試す序盤の門番から、任意の隠しボス、終盤のフェーズ変化型まで幅広く登場します。"
+        },
+        {
+          "question": "Well Dweller のトリンケットとスピリットはいくつありますか？",
+          "answer": "Well Dweller には32種のトリンケットと20種のスピリットがあります。トリンケットは攻撃、防御、維持、機動力、幸運をカバーし、スピリットは本作の進行と世界観に関わります。"
+        },
+        {
+          "question": "Well Dweller のクリア時間はどのくらいですか？",
+          "answer": "Well Dweller のプレイ時間は探索量によります。32個のトリンケット、すべての名称付きエリア、両方のエンディングを追うコンプリートランは、集中したランよりずっと長くなります。"
+        },
+        {
+          "question": "Well Dweller にハードモードはありますか？",
+          "answer": "はい。Well Dweller には複数の難易度段階とハードモードがあり、最も高い設定では資源経済が厳しくなり、ずさんな立ち位置が罰されます。"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Well Dweller を極める準備はできましたか？",
+      "description": "マッチ棒の明かりで歩む最初の一歩から終盤のボス戦まで、コミュニティウィキが無料で最新の Well Dweller ガイドをそろえてサポートします。",
+      "primary": "初心者ガイドを読む",
+      "secondary": "Steam でプレイ"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "ウィキナビゲーション",
+    "updated": "更新済み",
+    "playOnRoblox": "Roblox でプレイ",
+    "inThisSection": "このセクション",
+    "tableOfContents": "目次",
+    "nextSteps": "次のステップ",
+    "needHelp": "助けが必要ですか？",
+    "relatedReading": "関連記事",
+    "relatedGuides": "関連ガイド",
+    "readMore": "続きを読む",
+    "officialMedia": "公式メディア",
+    "home": "ホーム",
+    "noGuidesAvailable": "ガイドはまだありません。また後で確認してください！",
+    "popularGuides": "人気ガイド",
+    "viewAllGuides": "すべてのガイドを見る"
+  },
+  "footer": {
+    "aboutTitle": "Well Dweller Wiki",
+    "about": "Well Dweller Wiki は、ボス、トリンケット、スピリット、アビリティ、マップ、攻略チャート、そして必須のゲーム知識を扱う、ファン制作の独立系ガイドハブです。新規プレイヤーにもベテランにも役立ちます。",
+    "quickLinks": "クイックリンク",
+    "guides": "ガイド",
+    "legal": "法的事項",
+    "copyright": "2026 Well Dweller Wiki. Top Hat Studios および Kyle Thompson とは無関係です。",
+    "description": "ダークなおとぎ話風メトロイドヴァニア。13体のボス、32種のトリンケット、20種のスピリット、そして解き明かすべき朽ちた王国。",
+    "playGame": "Steam で Well Dweller をプレイ",
+    "officialDiscord": "公式 Discord",
+    "officialYoutube": "公式 YouTube",
+    "vvBuilder": "Well Dweller Steam ガイド",
+    "beginnerGuide": "初心者ガイド",
+    "bossGuides": "ボスガイド",
+    "trinketGuides": "アイテム & トリンケット",
+    "gameInfo": "ゲーム情報",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約"
+  }
+}

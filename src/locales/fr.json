@@ -1,1 +1,533 @@
-{}
+{
+  "site": {
+    "name": "Well Dweller Wiki",
+    "shortName": "Well Dweller",
+    "tagline": "Guides d'un metroidvania conte de fées sombre",
+    "description": "Wiki complet de Well Dweller avec boss, breloques, esprits, capacités, cartes, soluces, succès, objets à collectionner et conseils pour débutants, pour tous les joueurs.",
+    "legalNotice": "Wiki de fans non officiel. Fait par des joueurs, pour des joueurs."
+  },
+  "nav": {
+    "home": "Accueil",
+    "menu": "Menu",
+    "toggleTheme": "Changer de thème",
+    "guide": "Guide",
+    "maps": "Cartes",
+    "items": "Objets",
+    "combat": "Combat",
+    "mechanics": "Mécaniques",
+    "platforms": "Plateformes",
+    "info": "Infos"
+  },
+  "guide": {
+    "overviewTitle": "Guide Well Dweller",
+    "overviewDescription": "Guides pas à pas, soluces, conseils pour débutants, stratégies de boss, fins et parcours de contre-la-montre pour chaque étape de la descente dans Well Dweller."
+  },
+  "maps": {
+    "overviewTitle": "Cartes Well Dweller",
+    "overviewDescription": "Couverture cartographique complète de Well Dweller avec chaque lieu nommé, passage caché et raccourci du puits."
+  },
+  "items": {
+    "overviewTitle": "Objets Well Dweller",
+    "overviewDescription": "Toutes les breloques, fragments d'esprit, fioles rebondissantes et pages d'histoire de Well Dweller, avec leurs emplacements, effets et utilisations."
+  },
+  "combat": {
+    "overviewTitle": "Combat Well Dweller",
+    "overviewDescription": "Guides de boss de Well Dweller couvrant les schémas d'attaque, les tactiques de phase et les breloques et capacités qui rendent chaque combat gagnable."
+  },
+  "mechanics": {
+    "overviewTitle": "Mécaniques Well Dweller",
+    "overviewDescription": "Capacités de déplacement, améliorations Soar, niveaux de difficulté et règles du mode difficile expliqués pour Well Dweller."
+  },
+  "platforms": {
+    "overviewTitle": "Plateformes Well Dweller",
+    "overviewDescription": "Guides de plateformes Well Dweller pour Switch, Switch 2, PS5, Xbox et Steam, avec performances et détails de version."
+  },
+  "info": {
+    "overviewTitle": "Infos Well Dweller",
+    "overviewDescription": "Date de sortie, prix, durée de vie, détails du développeur, avis, impressions de la démo et comparaisons metroidvania de Well Dweller."
+  },
+  "home": {
+    "meta": {
+      "title": "Well Dweller Wiki – Boss, Breloques & Soluce",
+      "description": "Wiki complet de Well Dweller avec boss, breloques, esprits, capacités, cartes, soluces, succès, objets à collectionner et conseils pour débutants, pour tous les joueurs."
+    },
+    "hero": {
+      "eyebrow": "Metroidvania conte de fées sombre",
+      "title": "Well Dweller Wiki",
+      "description": "Explorez un metroidvania conte de fées sombre dans la peau de Glimmer, un minuscule oiseau armé d'une allumette, affrontant des bêtes, résolvant des énigmes, collectant des breloques et dévoilant un royaume pourri.",
+      "stats": [
+        "13 Boss",
+        "32 Breloques",
+        "20 Esprits",
+        "Sorti le 2026-09-22"
+      ],
+      "primaryCta": "Guide du débutant",
+      "secondaryCta": "Tous les boss",
+      "tertiaryCta": "Jouer sur Steam",
+      "videoLabel": "Bande-annonce officielle"
+    },
+    "updates": {
+      "title": "Dernières mises à jour",
+      "browse": "Parcourir tous les guides",
+      "viewAll": "Voir tout"
+    },
+    "start": {
+      "eyebrow": "Commencez ici",
+      "title": "Votre aventure Well Dweller",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guide du débutant",
+          "description": "Apprenez la boucle centrale de Well Dweller dès la première descente : déplacement, combat, soins, sauvegarde et les bonnes habitudes qui gardent Glimmer en vie dans le noir."
+        },
+        {
+          "number": "2",
+          "title": "Capacités et déplacement",
+          "description": "Débloquez les capacités plongée, élan, accrochage aux murs et Soar de Glimmer, et voyez comment chacune ouvre des passages du puits jusque-là inaccessibles."
+        },
+        {
+          "number": "3",
+          "title": "Combats de boss",
+          "description": "Préparez-vous aux 13 boss de Well Dweller avec les schémas d'attaque, les transitions de phase et la checklist d'avant-combat qui met fin à la plupart des runs ratés."
+        },
+        {
+          "number": "4",
+          "title": "Breloques et objets à collectionner",
+          "description": "Traquez les 32 breloques ainsi que les fragments d'esprit, pages d'histoire et fioles rebondissantes pour finaliser votre build et compléter la collection."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Pages populaires",
+      "title": "Tendances du moment",
+      "quickLinks": [
+        "Guide du débutant",
+        "Tous les boss",
+        "Breloques et esprits",
+        "Soluce"
+      ],
+      "cards": [
+        {
+          "badge": "Débutant",
+          "title": "Guide du débutant",
+          "description": "Tout ce qu'il vous faut, de la première descente à la maîtrise du combat, de la sauvegarde et de la progression précoce.",
+          "href": "/guide/welldweller-beginner-guide"
+        },
+        {
+          "badge": "Populaire",
+          "title": "Tous les boss",
+          "description": "Chaque combat de boss de Well Dweller avec schémas d'attaque, tactiques de phase et conseils de préparation.",
+          "href": "/guide/welldweller-all-bosses"
+        },
+        {
+          "badge": "Mis à jour",
+          "title": "Toutes les breloques",
+          "description": "Les 32 breloques par archétype avec effets, sources et les meilleurs équipements pour chaque style de jeu.",
+          "href": "/items/welldweller-all-trinkets"
+        },
+        {
+          "badge": "Populaire",
+          "title": "Capacités de déplacement",
+          "description": "Comment les capacités plongée, élan, accrochage et Soar de Glimmer transforment l'exploration et le déplacement.",
+          "href": "/mechanics/welldweller-movement-abilities"
+        },
+        {
+          "badge": "Nouveau",
+          "title": "Carte complète",
+          "description": "Une carte complète du puits avec chaque lieu nommé, raccourci et entrée cachée.",
+          "href": "/maps/welldweller-full-map"
+        },
+        {
+          "badge": "Populaire",
+          "title": "Guide de difficulté",
+          "description": "Comparez les niveaux de difficulté de Well Dweller et découvrez le réglage adapté à votre première partie.",
+          "href": "/mechanics/welldweller-difficulty"
+        },
+        {
+          "badge": "Nouveau",
+          "title": "Vraie fin",
+          "description": "Les conditions d'embranchement, la checklist de préparation et la route qui débloquent la vraie fin de Well Dweller.",
+          "href": "/guide/welldweller-true-ending"
+        },
+        {
+          "badge": "Nouveau",
+          "title": "Durée de vie",
+          "description": "Combien de temps dure une première partie de Well Dweller et ce qui change votre temps de jeu total.",
+          "href": "/info/welldweller-game-length"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Qu'est-ce que Well Dweller ?",
+      "paragraphs": [
+        "Well Dweller est un metroidvania conte de fées sombre du développeur Kyle Thompson, édité par Top Hat Studios et sorti le 22 septembre 2026. Vous incarnez Glimmer, un minuscule oiseau armé d'une seule allumette, descendant dans un royaume pourri de puits inondés, citernes et fosses bordées de pierre où lumière et flamme sont à la fois arme et guide.",
+        "La progression dans Well Dweller passe par le déblocage de capacités, la collecte de breloques et l'apprentissage de la carte en couches du puits. Le jeu compte 13 boss, 32 breloques et 20 esprits sur PC, PlayStation 5, Xbox et Nintendo Switch, et récompense l'exploration patiente et l'esquive propre plutôt que la force brute."
+      ],
+      "stats": [
+        {
+          "label": "Développeur",
+          "value": "Kyle Thompson"
+        },
+        {
+          "label": "Éditeur",
+          "value": "Top Hat Studios"
+        },
+        {
+          "label": "Plateforme",
+          "value": "PC, PS5, Xbox, Switch"
+        },
+        {
+          "label": "Genre",
+          "value": "Dark Fairy-Tale Metroidvania"
+        },
+        {
+          "label": "Date de sortie",
+          "value": "2026-09-22"
+        },
+        {
+          "label": "Boss",
+          "value": "13"
+        },
+        {
+          "label": "Breloques",
+          "value": "32"
+        },
+        {
+          "label": "Esprits",
+          "value": "20"
+        }
+      ],
+      "cta": "Explorer tous les guides"
+    },
+    "explore": {
+      "title": "Explorez le wiki Well Dweller",
+      "description": "Maîtrisez Well Dweller avec des guides pour débutants, une soluce complète, des stratégies de boss, des capacités, des breloques, des succès, des conseils de difficulté et un suivi des mises à jour pour chaque étape du puits.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guide du débutant Well Dweller",
+          "displayType": "step-by-step",
+          "description": "Une introduction accessible aux systèmes centraux de Well Dweller — déplacement, exploration, combat, soins, sauvegarde et progression — pour que les nouveaux joueurs démarrent fort et évitent les erreurs classiques du début.",
+          "href": "/guide/welldweller-beginner-guide",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Jouez l'intro et lisez chaque indication avant de commencer à explorer."
+            },
+            {
+              "label": "2",
+              "detail": "Réassignez les commandes et réglez l'audio et les sous-titres selon votre configuration."
+            },
+            {
+              "label": "3",
+              "detail": "Apprenez l'attaque de base, l'esquive et la lumière d'allumette de Glimmer."
+            },
+            {
+              "label": "4",
+              "detail": "Enregistrez votre progression aux points de contrôle au lieu de trop explorer en un seul trajet."
+            },
+            {
+              "label": "5",
+              "detail": "Dépensez vos premières ressources dans une amélioration offensive et une défensive."
+            },
+            {
+              "label": "6",
+              "detail": "Notez les portes verrouillées et les chutes sans retour pour vos futurs retours."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Soluce Well Dweller",
+          "displayType": "card-list",
+          "description": "Une soluce axée sur la progression qui cartographie chaque niveau de descente, résout les énigmes du puits et vous oriente vers les zones et rencontres qui verrouillent l'histoire.",
+          "href": "/guide/welldweller-walkthrough",
+          "highlights": [
+            {
+              "label": "Entrée",
+              "detail": "Notez les points de repère, impasses et portes non ouvertes sur votre descente."
+            },
+            {
+              "label": "Énigmes",
+              "detail": "Notez l'ordre des interrupteurs, l'état des leviers et la position des symboles avant de quitter une salle."
+            },
+            {
+              "label": "Ressources",
+              "detail": "Suivez les points d'apparition et les temps de réapparition pour qu'un second trajet reste abordable."
+            },
+            {
+              "label": "Profondeur",
+              "detail": "Surveillez les chutes sans retour et les choix irréversibles dans les couches les plus basses."
+            },
+            {
+              "label": "Fin de jeu",
+              "detail": "Vérifiez tôt les conditions d'embranchement pour pouvoir encore atteindre la fin visée."
+            },
+            {
+              "label": "Retour",
+              "detail": "Traitez chaque porte verrouillée comme un marque-page et revenez une fois la clé en main."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Boss Well Dweller",
+          "displayType": "card-list",
+          "description": "Un guide des boss couvrant les 13 grandes rencontres de Well Dweller, leurs schémas d'attaque, des stratégies utiles et la préparation qui transforme un mur en victoire en deux essais.",
+          "href": "/guide/welldweller-all-bosses",
+          "highlights": [
+            {
+              "label": "Bagarreurs",
+              "detail": "Esquivez la pression avant constante et punissez la fenêtre de récupération."
+            },
+            {
+              "label": "Contrôleurs de zone",
+              "detail": "Réduisez la distance en courbe et utilisez les couverts au lieu de foncer en ligne droite."
+            },
+            {
+              "label": "Invocateurs",
+              "detail": "Éliminez d'abord les adds minutés, puis concentrez vos dégâts sur le boss."
+            },
+            {
+              "label": "Phases",
+              "detail": "Gardez votre burst dix à quinze secondes après un changement de phase."
+            },
+            {
+              "label": "Préparation",
+              "detail": "Refaites le plein de consommables, adaptez les types de dégâts et repérez l'arène."
+            },
+            {
+              "label": "Entraînement",
+              "detail": "Faites un run d'observation sans attaquer pour lire tout le moveset."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Capacités Well Dweller",
+          "displayType": "code-cards",
+          "description": "Une référence des capacités et mécaniques de déplacement de Glimmer, expliquant comment chaque déblocage change l'exploration et ouvre des passages jusque-là inaccessibles.",
+          "href": "/mechanics/welldweller-movement-abilities",
+          "highlights": [
+            {
+              "label": "Plongée",
+              "detail": "Quittez un combat par le bas et refaites surface plus bas pour briser la ligne de vue."
+            },
+            {
+              "label": "Élan",
+              "detail": "Transformez une position statique en portée d'attaque en un seul mouvement."
+            },
+            {
+              "label": "Accrochage",
+              "detail": "Agrippez pierre humide et bois pour gagner de la hauteur sur les murs."
+            },
+            {
+              "label": "Soar",
+              "detail": "Planez au-dessus des grands vides une fois la capacité de vol de milieu de jeu débloquée."
+            },
+            {
+              "label": "Dash",
+              "detail": "Traversez rapidement les canaux d'eau grâce au déplacement porté par le courant."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Breloques Well Dweller",
+          "displayType": "tier-grid",
+          "description": "Un guide dédié aux 32 breloques et autres améliorations utiles de Well Dweller : ce que chacune fait, quand elle est précieuse et comment bâtir un équipement adapté à votre partie.",
+          "href": "/items/welldweller-all-trinkets",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Breloques de mobilité et de chance qui portent les speedruns et les chasses à la collection."
+            },
+            {
+              "label": "A",
+              "detail": "Choix offensifs et défensifs qui conviennent à presque tous les builds."
+            },
+            {
+              "label": "B",
+              "detail": "Options de maintien et d'utilité qui brillent lors des longues expéditions."
+            },
+            {
+              "label": "C",
+              "detail": "Breloques économiques situationnelles qui ne rapportent que lors des runs de farm."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Succès Well Dweller",
+          "displayType": "card-list",
+          "description": "Un guide de complétion couvrant les succès de Well Dweller et les conditions pratiques pour les débloquer, y compris les objectifs manquables et les routes efficaces.",
+          "href": "/guide",
+          "highlights": [
+            {
+              "label": "Collection",
+              "detail": "Rassemblez les 32 breloques, fragments d'esprit, pages d'histoire et fioles rebondissantes."
+            },
+            {
+              "label": "Boss",
+              "detail": "Vainquez les 13 rencontres de boss, y compris les combats cachés optionnels."
+            },
+            {
+              "label": "Fins",
+              "detail": "Atteignez la vraie fin et la fin secrète lors de parties séparées."
+            },
+            {
+              "label": "Explorateur",
+              "detail": "Découvrez chaque lieu nommé et complétez toute la carte du puits."
+            },
+            {
+              "label": "Épreuves",
+              "detail": "Terminez les contre-la-montre optionnels et les salles de défi."
+            },
+            {
+              "label": "Sans dégât",
+              "detail": "Survivez à un combat de boss sans subir de dégâts pour le badge le plus dur."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Guide de difficulté Well Dweller",
+          "displayType": "card-list",
+          "description": "Une comparaison des réglages de difficulté de Well Dweller avec des conseils pour choisir le bon palier, ainsi que la préparation des sections les plus dures et du mode difficile.",
+          "href": "/mechanics/welldweller-difficulty",
+          "highlights": [
+            {
+              "label": "Détendu",
+              "detail": "Ennemis plus faibles et ressources généreuses pour une première partie centrée sur l'histoire."
+            },
+            {
+              "label": "Standard",
+              "detail": "Le point d'équilibre prévu, où la plupart des joueurs devraient commencer."
+            },
+            {
+              "label": "Vétéran",
+              "detail": "IA plus agressive et économie plus serrée pour les joueurs expérimentés."
+            },
+            {
+              "label": "Extrême",
+              "detail": "Tout ce qui précède plus des règles d'échec plus strictes pour les complétionnistes."
+            },
+            {
+              "label": "Personnalisé",
+              "detail": "Réglez chaque modificateur au lieu de sauter tout un palier."
+            },
+            {
+              "label": "Difficile",
+              "detail": "Le mode difficile récompense l'esquive propre et punit le mauvais positionnement."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Mises à jour Well Dweller",
+          "displayType": "card-list",
+          "description": "Un suivi concis des mises à jour et correctifs couvrant les corrections officielles, les changements d'équilibrage, les améliorations de confort et les problèmes connus, pour vérifier si un souci est déjà réglé.",
+          "href": "/info/welldweller-developer",
+          "highlights": [
+            {
+              "label": "Correctifs",
+              "detail": "Lisez les notes de patch officielles pour voir ce qui a changé et ce qui fonctionne comme prévu."
+            },
+            {
+              "label": "Équilibrage",
+              "detail": "Suivez les buffs et nerfs qui modifient quels builds et breloques sont les plus forts."
+            },
+            {
+              "label": "Corrections",
+              "detail": "Consultez les listes de problèmes connus avant de signaler un crash ou un blocage de progression."
+            },
+            {
+              "label": "Confort",
+              "detail": "Suivez les mises à jour de confort qui réduisent les retours en arrière et les frictions de menu."
+            },
+            {
+              "label": "Démo",
+              "detail": "Comparez les versions démo à la version complète lors de la vérification d'un changement."
+            },
+            {
+              "label": "Feuille de route",
+              "detail": "Suivez les devlogs pour voir ce que le développeur prépare ensuite."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "description": "Réponses rapides aux questions les plus courantes sur Well Dweller.",
+      "items": [
+        {
+          "question": "Qu'est-ce que Well Dweller ?",
+          "answer": "Well Dweller est un metroidvania conte de fées sombre du développeur Kyle Thompson et de l'éditeur Top Hat Studios. Vous incarnez Glimmer, un minuscule oiseau armé d'une allumette, explorant un royaume pourri de puits inondés, affrontant des boss et collectant des breloques."
+        },
+        {
+          "question": "Sur quelles plateformes Well Dweller est-il disponible ?",
+          "answer": "Well Dweller est sorti le 22 septembre 2026 sur PC, PlayStation 5, Xbox et Nintendo Switch."
+        },
+        {
+          "question": "Combien de boss compte Well Dweller ?",
+          "answer": "Well Dweller compte 13 boss, des gardiens précoces qui testent le timing d'esquive aux rencontres cachées optionnelles et aux changeurs de phase de fin de jeu."
+        },
+        {
+          "question": "Combien de breloques et d'esprits compte Well Dweller ?",
+          "answer": "Well Dweller comprend 32 breloques et 20 esprits. Les breloques couvrent l'attaque, la défense, le maintien, la mobilité et la chance, tandis que les esprits sont liés à la progression et au monde du jeu."
+        },
+        {
+          "question": "Combien de temps faut-il pour terminer Well Dweller ?",
+          "answer": "La durée de Well Dweller dépend de votre exploration. Une partie ciblée est bien plus courte qu'une partie de complétion qui vise les 32 breloques, chaque lieu nommé et les deux fins."
+        },
+        {
+          "question": "Y a-t-il un mode difficile dans Well Dweller ?",
+          "answer": "Oui. Well Dweller propose plusieurs paliers de difficulté plus un mode difficile, et les réglages les plus élevés resserrent l'économie de ressources et punissent le mauvais positionnement."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Prêt à maîtriser Well Dweller ?",
+      "description": "De vos premiers pas éclairés à l'allumette aux combats de boss de fin de jeu, notre wiki communautaire vous accompagne avec des guides Well Dweller gratuits et à jour.",
+      "primary": "Lire le guide du débutant",
+      "secondary": "Jouer sur Steam"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Navigation du wiki",
+    "updated": "Mis à jour",
+    "playOnRoblox": "Jouer sur Roblox",
+    "inThisSection": "Dans cette section",
+    "tableOfContents": "Table des matières",
+    "nextSteps": "Étapes suivantes",
+    "needHelp": "Besoin d'aide ?",
+    "relatedReading": "Lectures liées",
+    "relatedGuides": "Guides liés",
+    "readMore": "Lire la suite",
+    "officialMedia": "Médias officiels",
+    "home": "Accueil",
+    "noGuidesAvailable": "Aucun guide disponible pour l'instant. Revenez bientôt !",
+    "popularGuides": "Guides populaires",
+    "viewAllGuides": "Parcourir tous les guides"
+  },
+  "footer": {
+    "aboutTitle": "Well Dweller Wiki",
+    "about": "Well Dweller Wiki est un hub de guides indépendant créé par des fans, couvrant boss, breloques, esprits, capacités, cartes, soluces et l'essentiel des connaissances du jeu, pour les nouveaux comme les vétérans.",
+    "quickLinks": "Liens rapides",
+    "guides": "Guides",
+    "legal": "Mentions légales",
+    "copyright": "2026 Well Dweller Wiki. Non affilié à Top Hat Studios ni à Kyle Thompson.",
+    "description": "Metroidvania conte de fées sombre. 13 boss, 32 breloques, 20 esprits et un royaume pourri à découvrir.",
+    "playGame": "Jouer à Well Dweller sur Steam",
+    "officialDiscord": "Discord officiel",
+    "officialYoutube": "YouTube officiel",
+    "vvBuilder": "Guides Steam Well Dweller",
+    "beginnerGuide": "Guide du débutant",
+    "bossGuides": "Guides des boss",
+    "trinketGuides": "Objets et breloques",
+    "gameInfo": "Infos du jeu",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation"
+  }
+}

@@ -1,1 +1,533 @@
-{}
+{
+  "site": {
+    "name": "Well Dweller Wiki",
+    "shortName": "Well Dweller",
+    "tagline": "Guides zum düsteren Märchen-Metroidvania",
+    "description": "Das komplette Well-Dweller-Wiki mit Bossen, Trinkets, Geistern, Fähigkeiten, Karten, Komplettlösungen, Erfolgen, Sammelobjekten und Einsteigertipps für jeden Spieler.",
+    "legalNotice": "Inoffizielles Fan-Wiki. Von Spielern für Spieler."
+  },
+  "nav": {
+    "home": "Startseite",
+    "menu": "Menü",
+    "toggleTheme": "Design wechseln",
+    "guide": "Leitfaden",
+    "maps": "Karten",
+    "items": "Items",
+    "combat": "Kampf",
+    "mechanics": "Mechaniken",
+    "platforms": "Plattformen",
+    "info": "Info"
+  },
+  "guide": {
+    "overviewTitle": "Welldweller Leitfaden",
+    "overviewDescription": "Schritt-für-Schritt-Guides, Komplettlösungen, Einsteigertipps, Bossstrategien, Enden und Zeitrennen-Routen für jede Phase des Abstiegs in Welldweller."
+  },
+  "maps": {
+    "overviewTitle": "Welldweller Karten",
+    "overviewDescription": "Vollständige Kartenabdeckung von Welldweller mit jedem benannten Ort, versteckten Durchgang und jeder Abkürzung im Brunnen."
+  },
+  "items": {
+    "overviewTitle": "Welldweller Items",
+    "overviewDescription": "Alle Trinkets, Geistfragmente, Springflaschen und Story-Seiten aus Welldweller mit Fundorten, Effekten und Verwendungszwecken."
+  },
+  "combat": {
+    "overviewTitle": "Welldweller Kampf",
+    "overviewDescription": "Welldweller-Bossguides mit Angriffsmustern, Phasentaktiken sowie den Trinkets und Fähigkeiten, die jeden Kampf gewinnbar machen."
+  },
+  "mechanics": {
+    "overviewTitle": "Welldweller Mechaniken",
+    "overviewDescription": "Bewegungsfähigkeiten, Soar-Upgrades, Schwierigkeitsgrade und Hard-Mode-Regeln für Welldweller erklärt."
+  },
+  "platforms": {
+    "overviewTitle": "Welldweller Plattformen",
+    "overviewDescription": "Welldweller-Plattformguides für Switch, Switch 2, PS5, Xbox und Steam, inklusive Leistung und Versionsdetails."
+  },
+  "info": {
+    "overviewTitle": "Welldweller Info",
+    "overviewDescription": "Welldweller-Release, Preis, Spieldauer, Entwicklerdetails, Tests, Demo-Eindrücke und Metroidvania-Vergleiche."
+  },
+  "home": {
+    "meta": {
+      "title": "Well Dweller Wiki – Bosse, Trinkets & Komplettlösung",
+      "description": "Das komplette Well-Dweller-Wiki mit Bossen, Trinkets, Geistern, Fähigkeiten, Karten, Komplettlösungen, Erfolgen, Sammelobjekten und Einsteigertipps für jeden Spieler."
+    },
+    "hero": {
+      "eyebrow": "Düsteres Märchen-Metroidvania",
+      "title": "Well Dweller Wiki",
+      "description": "Erkunde als Glimmer, ein winziger Vogel mit einem Streichholz als Waffe, ein düsteres Märchen-Metroidvania: Bekämpfe Bestien, löse Rätsel, sammle Trinkets und entdecke ein verrottetes Königreich.",
+      "stats": [
+        "13 Bosse",
+        "32 Trinkets",
+        "20 Geister",
+        "Erschienen 2026-09-22"
+      ],
+      "primaryCta": "Einsteigerguide",
+      "secondaryCta": "Alle Bosse",
+      "tertiaryCta": "Auf Steam spielen",
+      "videoLabel": "Offizieller Trailer"
+    },
+    "updates": {
+      "title": "Neueste Updates",
+      "browse": "Alle Guides durchsuchen",
+      "viewAll": "Alle ansehen"
+    },
+    "start": {
+      "eyebrow": "Hier starten",
+      "title": "Deine Welldweller-Reise",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Einsteigerguide",
+          "description": "Lerne die Kernmechanik von Welldweller ab dem ersten Abstieg kennen: Bewegung, Kampf, Heilung, Speichern und die frühen Gewohnheiten, die Glimmer im Dunkeln am Leben halten."
+        },
+        {
+          "number": "2",
+          "title": "Fähigkeiten & Bewegung",
+          "description": "Schalte Glimmers Tauch-, Ausfall-, Wandkletter- und Soar-Fähigkeiten frei und sieh, wie jede neue Wege durch den Brunnen öffnet, die zuvor unerreichbar waren."
+        },
+        {
+          "number": "3",
+          "title": "Bosskämpfe",
+          "description": "Bereite dich mit Angriffsmustern, Phasenwechseln und der Checkliste vor dem Kampf auf die 13 Bosse von Welldweller vor – sie beendet die meisten gescheiterten Runs."
+        },
+        {
+          "number": "4",
+          "title": "Trinkets & Sammelobjekte",
+          "description": "Finde alle 32 Trinkets sowie Geistfragmente, Story-Seiten und Springflaschen, um deinen Build zu vervollständigen und die Sammlung abzuschließen."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Beliebte Seiten",
+      "title": "Aktuell im Trend",
+      "quickLinks": [
+        "Einsteigerguide",
+        "Alle Bosse",
+        "Trinkets & Geister",
+        "Komplettlösung"
+      ],
+      "cards": [
+        {
+          "badge": "Einsteiger",
+          "title": "Einsteigerguide",
+          "description": "Alles, was du vom ersten Abstieg bis zur Beherrschung von Kampf, Speichern und früher Progression brauchst.",
+          "href": "/guide/welldweller-beginner-guide"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Alle Bosse",
+          "description": "Jeder Bosskampf in Welldweller mit Angriffsmustern, Phasentaktiken und Vorbereitungstipps.",
+          "href": "/guide/welldweller-all-bosses"
+        },
+        {
+          "badge": "Aktualisiert",
+          "title": "Alle Trinkets",
+          "description": "Alle 32 Trinkets nach Archetyp mit Effekten, Fundorten und den besten Loadouts für jeden Spielstil.",
+          "href": "/items/welldweller-all-trinkets"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Bewegungsfähigkeiten",
+          "description": "Wie Glimmers Tauch-, Ausfall-, Kletter- und Soar-Fähigkeiten Erkundung und Fortbewegung verändern.",
+          "href": "/mechanics/welldweller-movement-abilities"
+        },
+        {
+          "badge": "Neu",
+          "title": "Komplette Karte",
+          "description": "Eine komplette Karte des Brunnens mit jedem benannten Ort, jeder Abkürzung und jedem versteckten Eingang.",
+          "href": "/maps/welldweller-full-map"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Schwierigkeitsguide",
+          "description": "Vergleiche die Schwierigkeitsgrade von Welldweller und finde heraus, welche Einstellung zu deinem ersten Run passt.",
+          "href": "/mechanics/welldweller-difficulty"
+        },
+        {
+          "badge": "Neu",
+          "title": "Wahres Ende",
+          "description": "Die Verzweigungsbedingungen, die Vorbereitungs-Checkliste und die Route zum wahren Ende von Welldweller.",
+          "href": "/guide/welldweller-true-ending"
+        },
+        {
+          "badge": "Neu",
+          "title": "Spieldauer",
+          "description": "Wie lange ein erster Run in Welldweller dauert und was deine Gesamtspielzeit verändert.",
+          "href": "/info/welldweller-game-length"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Was ist Welldweller?",
+      "paragraphs": [
+        "Welldweller ist ein düsteres Märchen-Metroidvania vom Entwickler Kyle Thompson, veröffentlicht von Top Hat Studios am 22. September 2026. Du spielst Glimmer, einen winzigen Vogel mit einem einzigen Streichholz, der in ein verrottetes Königreich aus überfluteten Brunnen, Zisternen und mit Stein ausgekleideten Gruben hinabsteigt, wo Licht und Flamme zugleich Waffe und Wegweiser sind.",
+        "Fortschritt in Welldweller entsteht durch das Freischalten von Fähigkeiten, das Sammeln von Trinkets und das Erlernen der vielschichtigen Karte des Brunnens. Das Spiel umfasst 13 Bosse, 32 Trinkets und 20 Geister auf PC, PlayStation 5, Xbox und Nintendo Switch und belohnt geduldige Erkundung und sauberes Ausweichen mehr als rohe Gewalt."
+      ],
+      "stats": [
+        {
+          "label": "Entwickler",
+          "value": "Kyle Thompson"
+        },
+        {
+          "label": "Publisher",
+          "value": "Top Hat Studios"
+        },
+        {
+          "label": "Plattform",
+          "value": "PC, PS5, Xbox, Switch"
+        },
+        {
+          "label": "Genre",
+          "value": "Dark Fairy-Tale Metroidvania"
+        },
+        {
+          "label": "Erscheinungsdatum",
+          "value": "2026-09-22"
+        },
+        {
+          "label": "Bosse",
+          "value": "13"
+        },
+        {
+          "label": "Trinkets",
+          "value": "32"
+        },
+        {
+          "label": "Geister",
+          "value": "20"
+        }
+      ],
+      "cta": "Alle Guides erkunden"
+    },
+    "explore": {
+      "title": "Welldweller Wiki erkunden",
+      "description": "Meistere Welldweller mit Einsteigerguides, einer kompletten Komplettlösung, Bossstrategien, Fähigkeiten, Trinkets, Erfolgen, Schwierigkeitstipps und Update-Tracking für jede Phase des Brunnens.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Welldweller Einsteigerguide",
+          "displayType": "step-by-step",
+          "description": "Eine einsteigerfreundliche Einführung in Welldwellers Kernsysteme aus Bewegung, Erkundung, Kampf, Heilung, Speichern und Progression, damit neue Spieler stark starten und typische Anfängerfehler vermeiden.",
+          "href": "/guide/welldweller-beginner-guide",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Spiele das Intro und lies jeden Hinweis, bevor du mit der Erkundung beginnst."
+            },
+            {
+              "label": "2",
+              "detail": "Belege die Steuerung neu und passe Audio und Untertitel an dein Setup an."
+            },
+            {
+              "label": "3",
+              "detail": "Lerne Glimmers Basisangriff, Ausweichen und das Streichholzlicht."
+            },
+            {
+              "label": "4",
+              "detail": "Speichere Fortschritt an Kontrollpunkten, statt einen Ausflug zu übererkunden."
+            },
+            {
+              "label": "5",
+              "detail": "Investiere frühe Ressourcen in ein Angriffs- und ein Verteidigungs-Upgrade."
+            },
+            {
+              "label": "6",
+              "detail": "Notiere verschlossene Türen und Einweg-Abstürze für späteres Backtracking."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Welldweller Komplettlösung",
+          "displayType": "card-list",
+          "description": "Eine progressionsorientierte Komplettlösung, die jede Abstiegsebene abbildet, die Rätsel des Brunnens löst und dich zu den Gebieten und Begegnungen führt, die die Story vorantreiben.",
+          "href": "/guide/welldweller-walkthrough",
+          "highlights": [
+            {
+              "label": "Einstieg",
+              "detail": "Notiere Orientierungspunkte, Sackgassen und ungeöffnete Türen auf dem Weg nach unten."
+            },
+            {
+              "label": "Rätsel",
+              "detail": "Halte Schalterreihenfolge, Hebelzustände und Symbolpositionen fest, bevor du einen Raum verlässt."
+            },
+            {
+              "label": "Ressourcen",
+              "detail": "Verfolge Spawnpunkte und Respawn-Zeiten, damit ein zweiter Ausflug bezahlbar bleibt."
+            },
+            {
+              "label": "Tiefe",
+              "detail": "Achte in den untersten Ebenen auf Einweg-Abstürze und unumkehrbare Entscheidungen."
+            },
+            {
+              "label": "Endgame",
+              "detail": "Prüfe Verzweigungsbedingungen früh, damit du dein Zielende noch erreichen kannst."
+            },
+            {
+              "label": "Backtracking",
+              "detail": "Behandle jede verschlossene Tür als Lesezeichen und kehre zurück, sobald du den Schlüssel hast."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Welldweller Bosse",
+          "displayType": "card-list",
+          "description": "Ein Bossguide zu den 13 großen Begegnungen in Welldweller, ihren Angriffsmustern, nützlichen Strategien und der Vorbereitung, die aus einer Wand einen Sieg im zweiten Versuch macht.",
+          "href": "/guide/welldweller-all-bosses",
+          "highlights": [
+            {
+              "label": "Raufbolde",
+              "detail": "Weiche durch den ständigen Vorwärtsdruck aus und bestrafe das Erholungsfenster."
+            },
+            {
+              "label": "Zoner",
+              "detail": "Schließe die Lücke in Bögen und nutze Deckung, statt geradeaus zu stürmen."
+            },
+            {
+              "label": "Beschwörer",
+              "detail": "Beseitige getimte Adds zuerst und richte dann deinen Schaden auf den Boss."
+            },
+            {
+              "label": "Phasen",
+              "detail": "Halte deinen Burst zehn bis fünfzehn Sekunden nach einem Phasenwechsel zurück."
+            },
+            {
+              "label": "Vorbereitung",
+              "detail": "Fülle Verbrauchsgüter auf, passe Schadensarten an und spähe zuerst die Arena aus."
+            },
+            {
+              "label": "Übung",
+              "detail": "Mach einen Beobachtungslauf ohne Angriffe, um das gesamte Moveset zu lesen."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Welldweller Fähigkeiten",
+          "displayType": "code-cards",
+          "description": "Eine Referenz zu Glimmers Fähigkeiten und Bewegungsmechaniken, inklusive der Frage, wie jedes Freischalten die Erkundung verändert und zuvor unerreichbare Wege öffnet.",
+          "href": "/mechanics/welldweller-movement-abilities",
+          "highlights": [
+            {
+              "label": "Tauchen",
+              "detail": "Entkomme einem Kampf nach unten und tauche unterhalb wieder auf, um die Sichtlinie zu brechen."
+            },
+            {
+              "label": "Ausfallschritt",
+              "detail": "Verwandle eine stehende Position mit einer Bewegung in Angriffsreichweite."
+            },
+            {
+              "label": "Festhalten",
+              "detail": "Kralle dich an nassem Stein und Holz fest, um vertikal an Wänden zu klettern."
+            },
+            {
+              "label": "Soar",
+              "detail": "Gleite über weite Lücken, sobald du die Flugfähigkeit im Midgame freischaltest."
+            },
+            {
+              "label": "Dash",
+              "detail": "Überquere Wasserkanäle schnell mit der Strömungs-Bewegung."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Welldweller Trinkets",
+          "displayType": "tier-grid",
+          "description": "Ein fokussierter Guide zu den 32 Trinkets und anderen nützlichen Upgrades in Welldweller: Was jedes bewirkt, wann es wertvoll ist und wie du ein Loadout baust, das zu deinem Run passt.",
+          "href": "/items/welldweller-all-trinkets",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Mobilitäts- und Glückstrinkets, die Speedruns und Sammeljagden tragen."
+            },
+            {
+              "label": "A",
+              "detail": "Angriffs- und Verteidigungspicks, die fast zu jedem Build passen."
+            },
+            {
+              "label": "B",
+              "detail": "Durchhalte- und Utility-Optionen, die auf langen Expeditionen glänzen."
+            },
+            {
+              "label": "C",
+              "detail": "Situative Wirtschaftstrinkets, die sich nur in Farmruns auszahlen."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Welldweller Erfolge",
+          "displayType": "card-list",
+          "description": "Ein Vervollständigungsguide zu den Erfolgen von Welldweller und den praktischen Anforderungen zum Freischalten, inklusive verpassbarer Ziele und effizienter Routen.",
+          "href": "/guide",
+          "highlights": [
+            {
+              "label": "Sammeln",
+              "detail": "Sammle alle 32 Trinkets, Geistfragmente, Story-Seiten und Springflaschen."
+            },
+            {
+              "label": "Bosse",
+              "detail": "Besiege alle 13 Bossbegegnungen, einschließlich der optionalen versteckten Kämpfe."
+            },
+            {
+              "label": "Enden",
+              "detail": "Erreiche sowohl das wahre Ende als auch das geheime Ende in getrennten Runs."
+            },
+            {
+              "label": "Entdecker",
+              "detail": "Decke jeden benannten Ort auf und vervollständige die gesamte Karte des Brunnens."
+            },
+            {
+              "label": "Prüfungen",
+              "detail": "Schließe die optionalen Zeitrennen und Herausforderungsräume ab."
+            },
+            {
+              "label": "Ohne Treffer",
+              "detail": "Überlebe eine Bossbegegnung ohne Schaden für das härteste Abzeichen."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Welldweller Schwierigkeitsguide",
+          "displayType": "card-list",
+          "description": "Ein Vergleich der Schwierigkeitsgrade von Welldweller mit Ratschlägen zur Wahl der richtigen Stufe sowie Vorbereitung auf die härtesten Abschnitte und den Hard Mode.",
+          "href": "/mechanics/welldweller-difficulty",
+          "highlights": [
+            {
+              "label": "Entspannt",
+              "detail": "Schwächere Gegner und großzügige Ressourcen für einen ersten storyfokussierten Run."
+            },
+            {
+              "label": "Standard",
+              "detail": "Der vorgesehene Balancepunkt, an dem die meisten Spieler starten sollten."
+            },
+            {
+              "label": "Veteran",
+              "detail": "Aggressivere KI und eine straffere Wirtschaft für erfahrene Spieler."
+            },
+            {
+              "label": "Extrem",
+              "detail": "Alles oben Genannte plus strengere Fehlerregeln für Completionists."
+            },
+            {
+              "label": "Benutzerdefiniert",
+              "detail": "Passe einzelne Modifikatoren an, statt eine ganze Stufe zu überspringen."
+            },
+            {
+              "label": "Hard",
+              "detail": "Der Hard Mode belohnt sauberes Ausweichen und bestraft schlampige Positionierung."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Welldweller Updates",
+          "displayType": "card-list",
+          "description": "Ein kompakter Update- und Patch-Tracker zu offiziellen Fixes, Balance-Änderungen, Quality-of-Life-Verbesserungen und bekannten Problemen, damit du prüfen kannst, ob ein Problem bereits behoben ist.",
+          "href": "/info/welldweller-developer",
+          "highlights": [
+            {
+              "label": "Patches",
+              "detail": "Lies offizielle Patchnotes, um zu sehen, was sich geändert hat und was wie vorgesehen funktioniert."
+            },
+            {
+              "label": "Balance",
+              "detail": "Verfolge Buffs und Nerfs, die verschieben, welche Builds und Trinkets am stärksten sind."
+            },
+            {
+              "label": "Fixes",
+              "detail": "Prüfe Listen bekannter Probleme, bevor du einen Absturz oder Fortschrittsblocker meldest."
+            },
+            {
+              "label": "QoL",
+              "detail": "Folge Quality-of-Life-Updates, die Backtracking und Menüreibung reduzieren."
+            },
+            {
+              "label": "Demo",
+              "detail": "Vergleiche Demo-Builds mit der Vollversion, wenn du eine Änderung überprüfst."
+            },
+            {
+              "label": "Roadmap",
+              "detail": "Folge Devlogs, um zu sehen, was der Entwickler als Nächstes baut."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Kurze Antworten auf die häufigsten Fragen zu Welldweller.",
+      "items": [
+        {
+          "question": "Was ist Welldweller?",
+          "answer": "Welldweller ist ein düsteres Märchen-Metroidvania vom Entwickler Kyle Thompson und Publisher Top Hat Studios. Du spielst Glimmer, einen winzigen Vogel mit einem Streichholz, der ein verrottetes Königreich überfluteter Brunnen erkundet, während er Bosse bekämpft und Trinkets sammelt."
+        },
+        {
+          "question": "Auf welchen Plattformen ist Welldweller verfügbar?",
+          "answer": "Welldweller erschien am 22. September 2026 für PC, PlayStation 5, Xbox und Nintendo Switch."
+        },
+        {
+          "question": "Wie viele Bosse gibt es in Welldweller?",
+          "answer": "Es gibt 13 Bosse in Welldweller, von frühen Torwächtern, die Ausweich-Timing testen, bis zu optionalen versteckten Begegnungen und späten Phasenwechslern."
+        },
+        {
+          "question": "Wie viele Trinkets und Geister hat Welldweller?",
+          "answer": "Welldweller enthält 32 Trinkets und 20 Geister. Trinkets decken Angriff, Verteidigung, Durchhaltevermögen, Mobilität und Glück ab, während Geister mit Progression und Welt des Spiels verbunden sind."
+        },
+        {
+          "question": "Wie lange dauert es, Welldweller durchzuspielen?",
+          "answer": "Die Länge von Welldweller hängt davon ab, wie viel du erkundest. Ein fokussierter Run ist deutlich kürzer als ein Completionist-Run, der alle 32 Trinkets, jeden benannten Ort und beide Enden verfolgt."
+        },
+        {
+          "question": "Gibt es einen Hard Mode in Welldweller?",
+          "answer": "Ja. Welldweller bietet mehrere Schwierigkeitsstufen plus einen Hard Mode, und die höchsten Einstellungen verschärfen die Ressourcenwirtschaft und bestrafen schlampige Positionierung."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Bereit, Well Dweller zu meistern?",
+      "description": "Von deinen ersten vom Streichholz erleuchteten Schritten bis zu Endgame-Bosskämpfen hält unser Community-Wiki kostenlose, aktuelle Well Dweller Guides für dich bereit.",
+      "primary": "Lies den Einsteigerguide",
+      "secondary": "Auf Steam spielen"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Wiki-Navigation",
+    "updated": "Aktualisiert",
+    "playOnRoblox": "Auf Roblox spielen",
+    "inThisSection": "In diesem Abschnitt",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "nextSteps": "Nächste Schritte",
+    "needHelp": "Brauchst du Hilfe?",
+    "relatedReading": "Verwandte Lektüre",
+    "relatedGuides": "Verwandte Guides",
+    "readMore": "Mehr lesen",
+    "officialMedia": "Offizielle Medien",
+    "home": "Startseite",
+    "noGuidesAvailable": "Noch keine Guides verfügbar. Schau bald wieder vorbei!",
+    "popularGuides": "Beliebte Guides",
+    "viewAllGuides": "Alle Guides durchsuchen"
+  },
+  "footer": {
+    "aboutTitle": "Well Dweller Wiki",
+    "about": "Well Dweller Wiki ist ein unabhängiger, von Fans erstellter Guide-Hub zu Bossen, Trinkets, Geistern, Fähigkeiten, Karten, Komplettlösungen und wichtigem Spielwissen für neue und erfahrene Spieler.",
+    "quickLinks": "Schnelllinks",
+    "guides": "Guides",
+    "legal": "Rechtliches",
+    "copyright": "2026 Well Dweller Wiki. Nicht mit Top Hat Studios oder Kyle Thompson verbunden.",
+    "description": "Düsteres Märchen-Metroidvania. 13 Bosse, 32 Trinkets, 20 Geister und ein verrottetes Königreich zum Entdecken.",
+    "playGame": "Well Dweller auf Steam spielen",
+    "officialDiscord": "Offizieller Discord",
+    "officialYoutube": "Offizielles YouTube",
+    "vvBuilder": "Well Dweller Steam-Guides",
+    "beginnerGuide": "Einsteigerguide",
+    "bossGuides": "Bossguides",
+    "trinketGuides": "Items & Trinkets",
+    "gameInfo": "Spielinfo",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen"
+  }
+}
