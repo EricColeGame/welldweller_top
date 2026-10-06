@@ -38,27 +38,27 @@
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your Well Dweller Journey",
+      "title": "Your Welldweller Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn Welldweller's core loop from the first descent: movement, combat, healing, saving, and the early habits that keep Glimmer alive in the dark."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Abilities & Movement",
+          "description": "Unlock Glimmer's dive, lunge, wall-cling, and Soar abilities, and see how each one opens routes through the well that were unreachable before."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Boss Fights",
+          "description": "Prepare for Welldweller's 13 bosses with attack patterns, phase transitions, and the pre-fight checklist that ends most failed runs."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Well Dweller."
+          "title": "Trinkets & Collectibles",
+          "description": "Track down all 32 trinkets plus Spirit Fragments, Story Pages, and Bouncing Bottles to finish your build and complete the collection."
         }
       ]
     },
@@ -66,237 +66,357 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "All Bosses",
+        "Trinkets & Spirits",
+        "Walkthrough"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Everything you need from your first descent to mastering combat, saving, and early progression.",
+          "href": "/guide/welldweller-beginner-guide"
+        },
+        {
+          "badge": "Popular",
+          "title": "All Bosses",
+          "description": "Every Welldweller boss fight with attack patterns, phase tactics, and preparation tips.",
+          "href": "/guide/welldweller-all-bosses"
         },
         {
           "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
-        },
-        {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "title": "All Trinkets",
+          "description": "All 32 trinkets by archetype with effects, sources, and the best loadouts for each playstyle.",
+          "href": "/items/welldweller-all-trinkets"
         },
         {
           "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "title": "Movement Abilities",
+          "description": "How Glimmer's dive, lunge, cling, and Soar abilities reshape exploration and traversal.",
+          "href": "/mechanics/welldweller-movement-abilities"
         },
         {
           "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "title": "Full Map",
+          "description": "A complete map of the well with every named location, shortcut, and hidden entrance.",
+          "href": "/maps/welldweller-full-map"
         },
         {
           "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "title": "Difficulty Guide",
+          "description": "Compare Welldweller's difficulty tiers and learn which setting fits your first run.",
+          "href": "/mechanics/welldweller-difficulty"
         },
         {
           "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "title": "True Ending",
+          "description": "The branch conditions, prep checklist, and route that unlock the Welldweller true ending.",
+          "href": "/guide/welldweller-true-ending"
         },
         {
           "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "title": "Game Length",
+          "description": "How long a first run of Welldweller takes and what changes your total playtime.",
+          "href": "/info/welldweller-game-length"
         }
       ]
     },
     "aboutGame": {
-      "title": "What is Well Dweller?",
+      "title": "What is Welldweller?",
       "paragraphs": [
-        "Well Dweller is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Welldweller is a dark fairy-tale metroidvania from developer Kyle Thompson, published by Top Hat Studios and released on September 22, 2026. You play as Glimmer, a tiny bird armed with a single matchstick, descending into a rotten kingdom of flooded wells, cisterns, and stone-lined pits where light and flame are both weapon and guide.",
+        "Progress in Welldweller comes from unlocking abilities, collecting trinkets, and learning the well's layered map. The game spans 13 bosses, 32 trinkets, and 20 spirits across PC, PlayStation 5, Xbox, and Nintendo Switch, and it rewards patient exploration and clean dodging over brute force."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "Kyle Thompson"
+        },
+        {
+          "label": "Publisher",
+          "value": "Top Hat Studios"
         },
         {
           "label": "Platform",
-          "value": "Roblox"
+          "value": "PC, PS5, Xbox, Switch"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Dark Fairy-Tale Metroidvania"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Release Date",
+          "value": "2026-09-22"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Bosses",
+          "value": "13"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Trinkets",
+          "value": "32"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Spirits",
+          "value": "20"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
-      "title": "Explore Well Dweller Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "title": "Explore Welldweller Wiki",
+      "description": "Master Welldweller with beginner guides, a full walkthrough, boss strategies, abilities, trinkets, achievements, difficulty advice, and update tracking for every stage of the well.",
       "modules": [
         {
           "order": 1,
-          "name": "Well Dweller Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/well-dweller-codes",
-          "displayType": "code-box",
+          "name": "Welldweller Beginner Guide",
+          "displayType": "step-by-step",
+          "description": "A beginner-friendly introduction to Welldweller's core movement, exploration, combat, healing, saving, and progression systems, so new players can start strong and avoid common early mistakes.",
+          "href": "/guide/welldweller-beginner-guide",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Play the intro and read every prompt before you start exploring."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Rebind controls and set audio and subtitles to suit your setup."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Learn Glimmer's basic attack, dodge, and matchstick light."
+            },
+            {
+              "label": "4",
+              "detail": "Bank progress at checkpoints instead of over-exploring one trip."
+            },
+            {
+              "label": "5",
+              "detail": "Spend early resources on one offense and one defense upgrade."
+            },
+            {
+              "label": "6",
+              "detail": "Note locked doors and one-way drops for later backtracking."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/well-dweller-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Welldweller Walkthrough",
+          "displayType": "card-list",
+          "description": "A progression-focused walkthrough that maps each descent layer, solves the well's puzzles, and points you to the areas and encounters that gate the story.",
+          "href": "/guide/welldweller-walkthrough",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Entry",
+              "detail": "Record landmarks, dead ends, and unopened doors on your way down."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Puzzles",
+              "detail": "Note switch order, lever states, and symbol positions before leaving a room."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Resources",
+              "detail": "Track spawn spots and respawn timing so a second trip stays affordable."
+            },
+            {
+              "label": "Deep",
+              "detail": "Watch for one-way drops and irreversible choices in the lowest layers."
+            },
+            {
+              "label": "Endgame",
+              "detail": "Check branch conditions early so you can still reach your target ending."
+            },
+            {
+              "label": "Backtrack",
+              "detail": "Treat every locked door as a bookmark and return once you have the key."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/well-dweller-tier-list",
-          "displayType": "tier-grid",
+          "name": "Welldweller Bosses",
+          "displayType": "card-list",
+          "description": "A boss guide covering Welldweller's 13 major encounters, their attack patterns, useful strategies, and the preparation that turns a wall into a two-attempt win.",
+          "href": "/guide/welldweller-all-bosses",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "Bruisers",
+              "detail": "Dodge through constant forward pressure and punish the recovery window."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "Zoners",
+              "detail": "Close the gap in arcs and use cover instead of charging in a straight line."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "Summoners",
+              "detail": "Clear timed adds first, then turn your damage on the boss."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "Phases",
+              "detail": "Hold your burst for ten to fifteen seconds after a phase shift."
+            },
+            {
+              "label": "Prep",
+              "detail": "Top off consumables, match damage types, and scout the arena first."
+            },
+            {
+              "label": "Practice",
+              "detail": "Take one observation run with no attacks to read the whole moveset."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/well-dweller-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Welldweller Abilities",
+          "displayType": "code-cards",
+          "description": "A reference for Glimmer's abilities and movement mechanics, including how each unlock changes exploration and opens routes that were previously unreachable.",
+          "href": "/mechanics/welldweller-movement-abilities",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Dive",
+              "detail": "Sink out of a fight and resurface below to break line of sight."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Lunge",
+              "detail": "Convert a standing position into strike range in a single motion."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Cling",
+              "detail": "Grip wet stone and timber to gain vertical position on walls."
+            },
+            {
+              "label": "Soar",
+              "detail": "Glide across wide gaps once you unlock the mid-game flight ability."
+            },
+            {
+              "label": "Dash",
+              "detail": "Cross water channels quickly with the current-ride movement."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/well-dweller-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Welldweller Trinkets",
+          "displayType": "tier-grid",
+          "description": "A focused guide to Welldweller's 32 trinkets and other useful upgrades, explaining what each one does, when it is valuable, and how to build a loadout that fits your run.",
+          "href": "/items/welldweller-all-trinkets",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "S",
+              "detail": "Mobility and luck trinkets that carry speedruns and collection hunts."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "A",
+              "detail": "Offense and mitigation picks that fit almost any build."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "B",
+              "detail": "Sustain and utility options that shine in long expeditions."
+            },
+            {
+              "label": "C",
+              "detail": "Situational economy trinkets that pay off only in farming runs."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/well-dweller-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Welldweller Achievements",
+          "displayType": "card-list",
+          "description": "A completion guide covering Welldweller's achievements and the practical requirements for unlocking them, including missable goals and efficient completion routes.",
+          "href": "/guide",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Collect",
+              "detail": "Gather all 32 trinkets, Spirit Fragments, Story Pages, and Bouncing Bottles."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Bosses",
+              "detail": "Clear all 13 boss encounters, including the optional hidden fights."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Endings",
+              "detail": "Reach both the true ending and the secret ending on separate runs."
+            },
+            {
+              "label": "Explorer",
+              "detail": "Uncover every named location and fill in the full map of the well."
+            },
+            {
+              "label": "Trials",
+              "detail": "Finish the optional time trials and challenge rooms for bragging rights."
+            },
+            {
+              "label": "No Hit",
+              "detail": "Survive a boss encounter without taking damage for the hardest badge."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Welldweller Difficulty Guide",
+          "displayType": "card-list",
+          "description": "A comparison of Welldweller's difficulty settings with advice on choosing the right tier, plus preparation for the toughest sections and hard mode.",
+          "href": "/mechanics/welldweller-difficulty",
+          "highlights": [
+            {
+              "label": "Relaxed",
+              "detail": "Softer enemies and generous resources for a first story-focused run."
+            },
+            {
+              "label": "Standard",
+              "detail": "The intended balance point where most players should start."
+            },
+            {
+              "label": "Veteran",
+              "detail": "More aggressive AI and a tighter economy for experienced players."
+            },
+            {
+              "label": "Extreme",
+              "detail": "Everything above plus stricter failure rules for completionists."
+            },
+            {
+              "label": "Custom",
+              "detail": "Tune individual modifiers instead of jumping a whole tier."
+            },
+            {
+              "label": "Hard",
+              "detail": "Hard mode rewards clean dodging and punishes sloppy positioning."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Welldweller Updates",
+          "displayType": "card-list",
+          "description": "A concise update and patch tracker covering official fixes, balance changes, quality-of-life improvements, and known issues so you can check whether a problem is already addressed.",
+          "href": "/info/welldweller-developer",
+          "highlights": [
+            {
+              "label": "Patches",
+              "detail": "Read official patch notes to see what changed and what is working as intended."
+            },
+            {
+              "label": "Balance",
+              "detail": "Track buffs and nerfs that shift which builds and trinkets are strongest."
+            },
+            {
+              "label": "Fixes",
+              "detail": "Check known-issue lists before reporting a crash or progression block."
+            },
+            {
+              "label": "QoL",
+              "detail": "Follow quality-of-life updates that reduce backtracking and menu friction."
+            },
+            {
+              "label": "Demo",
+              "detail": "Compare demo builds against the full release when verifying a change."
+            },
+            {
+              "label": "Roadmap",
+              "detail": "Follow devlogs to see what the developer is building next."
             }
           ]
         }
@@ -304,27 +424,31 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Well Dweller.",
+      "description": "Quick answers to the most common questions about Welldweller.",
       "items": [
         {
-          "question": "What is Well Dweller?",
-          "answer": "Well Dweller is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What is Welldweller?",
+          "answer": "Welldweller is a dark fairy-tale metroidvania from developer Kyle Thompson and publisher Top Hat Studios. You play as Glimmer, a tiny bird armed with a matchstick, exploring a rotten kingdom of flooded wells while fighting bosses and collecting trinkets."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "What platforms is Welldweller available on?",
+          "answer": "Welldweller released on September 22, 2026 for PC, PlayStation 5, Xbox, and Nintendo Switch."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "How many bosses are in Welldweller?",
+          "answer": "There are 13 bosses in Welldweller, ranging from early gatekeepers that test dodge timing to optional hidden encounters and late-game phase-shifters."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "How many trinkets and spirits does Welldweller have?",
+          "answer": "Welldweller includes 32 trinkets and 20 spirits. Trinkets cover offense, defense, sustain, mobility, and luck, while spirits tie into the game's progression and world."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "How long does Welldweller take to beat?",
+          "answer": "Welldweller's length depends on how much you explore. A focused run is far shorter than a completionist run that chases all 32 trinkets, every named location, and both endings."
+        },
+        {
+          "question": "Is there a hard mode in Welldweller?",
+          "answer": "Yes. Welldweller offers multiple difficulty tiers plus a hard mode, and the highest settings tighten the resource economy and punish sloppy positioning."
         }
       ]
     },
