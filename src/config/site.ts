@@ -19,18 +19,18 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "My Seafood Stand Wiki",
-  shortName: "My Seafood Stand",
-  logoText: "SS",
-  tagline: "Complete Guides, Codes, Recipes & Tier Lists",
-  description: "Your ultimate guide to My Seafood Stand on Roblox! Explore active working codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top").hostname.replace(/^www\./, "")}`,
-  gameUrl: "https://www.roblox.com/games/my-seafood-stand",
-  heroVideoId: "M8DvcwoFRrk", // Roblox My Seafood Stand codes & gameplay video
+  name: "Well Dweller Wiki",
+  shortName: "Well Dweller",
+  logoText: "W",
+  tagline: "Dark Fairy-Tale Metroidvania Guides",
+  description: "Complete Well Dweller wiki with bosses, trinkets, spirits, abilities, maps, walkthroughs, achievements, collectibles and beginner tips for every player.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://welldweller.top",
+  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://welldweller.top").hostname.replace(/^www\./, "")}`,
+  gameUrl: "https://store.steampowered.com/app/3699590/Well_Dweller/",
+  heroVideoId: "fFnYryNgaEQ", // Well Dweller - Official Launch Trailer
   social: {
-    discord: "https://discord.gg/roblox",
-    youtube: "https://www.youtube.com/@roblox",
+    discord: "https://discord.gg/gamesbykylethompson",
+    youtube: "https://www.youtube.com/watch?v=fFnYryNgaEQ",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
