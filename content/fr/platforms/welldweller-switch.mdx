@@ -1,0 +1,105 @@
+export const metadata = {
+  title: "Guide de l'interrupteur Welldweller : paramètres à activer, règles d'apparition et compatibilité des plateformes",
+  description: "Découvrez comment fonctionne l'interrupteur du welldweller, quelles options contrôlent les apparitions et l'agressivité, et comment configurer le mod en toute sécurité sur votre plateforme.",
+  category: "platforms",
+  date: "2026-10-07",
+}
+
+Peu de choses changent aussi rapidement l'ambiance d'un monde de survie que le welldweller — une présence tapie qui transforme les puits de village ordinaires en lieux que vous évitez après la tombée de la nuit. Si vous avez déjà voulu augmenter ou diminuer cette peur, l'interrupteur du welldweller est le contrôle qu'il vous faut, et il ne faut que quelques minutes pour le comprendre. Ce guide passe en revue les principaux réglages, explique ce que chacun change en jeu, et vous montre comment configurer le welldweller en toute sécurité sur la plateforme que vous utilisez.
+
+## Ce que contrôle réellement l'interrupteur du welldweller
+
+Le terme « interrupteur du welldweller » est utilisé de deux façons dans la communauté, et savoir laquelle vous visez évite toute confusion. Le plus souvent, il désigne les options de configuration — les interrupteurs marche/arrêt — qui déterminent si la créature peut apparaître, à quelle fréquence elle chasse et comment elle se comporte lorsqu'elle vous repère. De manière plus vague, les joueurs l'emploient aussi pour demander si le welldweller peut être complètement désactivé, ce qui revient à la même question : où se trouve l'interrupteur, et que change-t-il ?
+
+Dans la plupart des versions, ces options se trouvent dans un fichier de configuration en texte brut qui est généré la première fois que vous lancez un monde avec le mod chargé. Quelques versions ajoutent aussi un écran de paramètres en jeu, généralement accessible depuis la liste des mods ou via un raccourci clavier. Dans tous les cas, les interrupteurs se répartissent en familles prévisibles : apparition, agressivité, audio et comportement de disparition.
+
+Comme les noms de versions et les libellés d'options diffèrent, lisez toujours les commentaires du fichier de configuration avant de modifier quoi que ce soit. Les libellés ci-dessous décrivent ce que les interrupteurs *font*, pas nécessairement comment ils sont appelés dans votre téléchargement.
+
+## Les principaux interrupteurs du welldweller en un coup d'œil
+
+| Type d'interrupteur | Ce qu'il contrôle | Options typiques | Idéal pour |
+|---|---|---|---|
+| Interrupteur d'apparition | Si le welldweller peut apparaître du tout | Activé / Désactivé | Les joueurs qui veulent l'ambiance sans les frayeurs soudaines |
+| Fréquence d'apparition | À quelle fréquence la créature est autorisée à tenter une apparition | Faible / Normale / Élevée | Ajuster la tension sur de longues sessions |
+| Agressivité | Jusqu'où elle poursuivra une fois qu'elle vous repère | Passive / Normale / Implacable | Mondes hardcore vs. parties détendues |
+| Signaux audio | Sons d'ambiance et effets sonores qui préviennent qu'elle est proche | Activés / Désactivés / Discrets | Streamers qui veulent un avertissement, ou joueurs qui veulent le silence |
+| Comportement de disparition | Si elle bat en retraite quand vous quittez la zone du puits ou à la lumière du jour | Immédiate / Retardée / Jamais | Garder les abords de votre base calmes |
+| Filtre de cible | Si elle cible un seul joueur ou n'importe qui à proximité | Solo / Multijoueur | Serveurs coopératifs et mondes partagés |
+
+Les retours de la communauté suggèrent que l'interrupteur d'apparition et le réglage d'agressivité comptent le plus pour le plaisir au quotidien. Désactiver les apparitions conserve l'ambiance mais supprime la menace ; réduire l'agressivité conserve la menace mais la rend survivable pour les joueurs débutants.
+
+## Comment modifier les paramètres de l'interrupteur du welldweller
+
+Modifier l'interrupteur du welldweller n'est pas difficile, mais le faire dans le bon ordre évite une sauvegarde corrompue ou un monde au comportement étrange.
+
+| Étape | Que faire | Pourquoi c'est important |
+|---|---|---|
+| 1 | Sauvegardez le dossier de votre monde | Permet de revenir en arrière si un interrupteur casse le comportement |
+| 2 | Trouvez le fichier de configuration dans le dossier `config` de votre instance | C'est là que se trouvent la plupart des interrupteurs du welldweller |
+| 3 | Ouvrez-le avec un éditeur de texte brut | Évitez les traitements de texte qui ajoutent un formatage caché |
+| 4 | Modifiez un interrupteur à la fois | Rend évident quel réglage a causé un changement |
+| 5 | Enregistrez, puis rechargez le monde ou redémarrez le serveur | Certains interrupteurs ne s'appliquent qu'au chargement |
+| 6 | Testez dans une zone éloignée de votre base | Confirme le nouveau comportement en toute sécurité |
+
+### Si votre version dispose d'un menu en jeu
+
+Certaines versions ignorent complètement le fichier et exposent l'interrupteur du welldweller via un écran de paramètres. Ouvrez la liste des mods, sélectionnez l'entrée welldweller et cherchez un bouton de configuration ou d'options. Attendez-vous à un mélange d'interrupteurs et de curseurs.
+
+- Les interrupteurs s'appliquent immédiatement dans la plupart des cas.
+- Les curseurs de fréquence ou d'agressivité nécessitent souvent un rechargement du monde.
+- Les paramètres côté serveur remplacent généralement tout ce qu'un client modifie.
+
+## Règles d'apparition : quand l'interrupteur du welldweller compte le plus
+
+Même avec l'apparition activée, le welldweller n'apparaît pas n'importe où ni n'importe quand. Les retours de la communauté pointent vers une poignée de conditions qui influencent la probabilité d'une rencontre. Rappelez-vous que désactiver l'interrupteur d'apparition les annule toutes — ces conditions ne comptent que lorsque l'apparition est autorisée.
+
+| Condition | Effet sur les chances de rencontre | À retenir en pratique |
+|---|---|---|
+| La nuit ou une lumière très faible | Plus élevées | Dormez toute la nuit si vous voulez une pause |
+| Se tenir près d'un puits de village | Plus élevées | Les puits sont son terrain de chasse caractéristique |
+| Jouer seul | Plus élevées | Les joueurs en groupe rapportent moins de frayeurs |
+| Activité bruyante à proximité | Plus élevées | Miner et combattre semblent attirer l'attention |
+| Lumière du jour, terrain dégagé | Plus faibles | Voyagez le matin quand vous pouvez |
+
+L'expérience des joueurs suggère aussi que le welldweller se comporte différemment selon la distance à laquelle vous vous éloignez de l'eau. Rester à l'intérieur des terres et loin des puits est la façon la plus simple d'éviter une rencontre sans toucher au moindre interrupteur.
+
+## L'interrupteur du welldweller sur Nintendo Switch et les autres plateformes
+
+C'est la question qui amène de nombreux joueurs sur ce sujet, et la réponse est simple : les mods de ce type sont conçus pour l'édition Java sur PC, et les consoles — y compris la Nintendo Switch — n'autorisent pas les mods tiers. Il n'existe pas d'interrupteur du welldweller officiel sur Nintendo Switch, ni de moyen légitime d'en ajouter un.
+
+| Plateforme | Prise en charge des mods tiers | Interrupteur du welldweller disponible ? | Remarques |
+|---|---|---|---|
+| Édition Java (PC) | Complète | Oui | Fichier de configuration, plus un menu en jeu dans certaines versions |
+| Édition Bedrock (PC/mobile) | Add-ons uniquement | Rarement | Dépend de l'existence d'un portage communautaire |
+| Nintendo Switch | Non | Non | La politique des consoles bloque les mods externes |
+| PlayStation / Xbox | Non | Non | Même restriction que sur Switch |
+| Serveurs multijoueurs Java | Côté serveur | Oui, contrôlé par l'administrateur | Les administrateurs règlent l'interrupteur pour tout le monde |
+
+Si vous jouez sur console et voulez la même tension, les options réalistes se limitent aux add-ons proches du vanilla qui incluent une créature similaire, ou au fait de jouer sur PC. Lorsque vous téléchargez quoi que ce soit, utilisez des dépôts reconnus comme [CurseForge](https://www.curseforge.com/minecraft) et confirmez votre version du jeu sur [le site officiel de Minecraft](https://www.minecraft.net) avant d'installer.
+
+## Conseils pour une expérience équilibrée avec le welldweller
+
+Un welldweller toujours actif devient vite lassant, et un welldweller qui n'apparaît jamais rend le mod inutile. Ces habitudes permettent de garder l'intérêt :
+
+- Commencez avec les signaux audio activés et une agressivité faible pour vos premières nuits.
+- Utilisez une fréquence d'apparition faible jusqu'à ce que vous appreniez les schémas de la créature.
+- Gardez une trace de l'interrupteur d'apparition pour pouvoir le basculer pendant un enregistrement ou un stream.
+- Utilisez des configurations séparées pour des mondes séparés plutôt qu'un réglage global unique.
+- Testez les modifications dans une copie de votre monde avant de les appliquer à une sauvegarde de longue date.
+- Revérifiez votre configuration après les mises à jour du mod, car de nouveaux interrupteurs sont parfois ajoutés.
+
+## Questions fréquentes sur l'interrupteur du welldweller
+
+**Puis-je désactiver complètement le welldweller ?**
+Oui. L'interrupteur d'apparition est conçu exactement pour cela. Désactivez-le, rechargez le monde, et la créature devrait cesser d'apparaître. L'ambiance audio peut continuer à être diffusée selon votre version.
+
+**L'interrupteur du welldweller fonctionne-t-il sur Nintendo Switch ?**
+Non. La Nintendo Switch ne prend pas en charge les mods tiers, donc il n'existe pas d'interrupteur du welldweller légitime sur cette plateforme. Les rapports communautaires concernant des versions console doivent être traités avec prudence.
+
+**Modifier un interrupteur peut-il casser mon monde ?**
+Pas normalement. Les modifications de configuration affectent le comportement, pas les données du monde. Faites d'abord une sauvegarde de votre partie dans tous les cas, et modifiez un réglage à la fois afin de pouvoir identifier la cause de tout comportement étrange.
+
+**Où puis-je trouver le fichier de configuration ?**
+Regardez dans le dossier `config` de votre instance de jeu, ou dans un dossier par monde si votre version y stocke les paramètres. Le nom exact du fichier varie, alors recherchez le nom du mod si vous ne le repérez pas immédiatement.
+
+Une fois que vous savez quels interrupteurs font quoi, l'interrupteur du welldweller devient l'un des outils les plus utiles de votre installation moddée — il vous permet de conserver l'ambiance, de contrôler le danger et de décider vous-même quelle part de peur appartient à votre monde.

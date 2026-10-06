@@ -9,7 +9,42 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "maps": "Maps",
+    "items": "Items",
+    "combat": "Combat",
+    "mechanics": "Mechanics",
+    "platforms": "Platforms",
+    "info": "Info"
+  },
+  "guide": {
+    "overviewTitle": "Welldweller Guide",
+    "overviewDescription": "Step-by-step Welldweller guides, walkthroughs, beginner tips, boss strategies, endings, and time trial routes for every stage of the descent."
+  },
+  "maps": {
+    "overviewTitle": "Welldweller Maps",
+    "overviewDescription": "Full Welldweller map coverage with every named location, hidden passage, and shortcut inside the well."
+  },
+  "items": {
+    "overviewTitle": "Welldweller Items",
+    "overviewDescription": "All Welldweller trinkets, spirit fragments, bouncing bottles, and story pages with their locations, effects, and uses."
+  },
+  "combat": {
+    "overviewTitle": "Welldweller Combat",
+    "overviewDescription": "Welldweller boss guides covering attack patterns, phase tactics, and the trinkets and abilities that make each fight winnable."
+  },
+  "mechanics": {
+    "overviewTitle": "Welldweller Mechanics",
+    "overviewDescription": "Movement abilities, Soar upgrades, difficulty settings, and hard mode rules explained for Welldweller."
+  },
+  "platforms": {
+    "overviewTitle": "Welldweller Platforms",
+    "overviewDescription": "Welldweller platform guides for Switch, Switch 2, PS5, Xbox, and Steam, including performance and version details."
+  },
+  "info": {
+    "overviewTitle": "Welldweller Info",
+    "overviewDescription": "Welldweller release date, price, game length, developer details, reviews, demo impressions, and metroidvania comparisons."
   },
   "home": {
     "meta": {
@@ -459,12 +494,9 @@
       "secondary": "Play on Steam"
     }
   },
-  "bosses": {},
   "shared": {
     "wikiNavigation": "Wiki Navigation",
-    "activeCodes": "Active Codes",
     "updated": "Updated",
-    "viewAllCodes": "View all codes",
     "playOnRoblox": "Play on Roblox",
     "inThisSection": "In this section",
     "tableOfContents": "Table of Contents",
@@ -475,7 +507,9 @@
     "readMore": "Read more",
     "officialMedia": "Official media",
     "home": "Home",
-    "noGuidesAvailable": "No guides available yet. Check back soon!"
+    "noGuidesAvailable": "No guides available yet. Check back soon!",
+    "popularGuides": "Popular Guides",
+    "viewAllGuides": "Browse all guides"
   },
   "footer": {
     "aboutTitle": "Well Dweller Wiki",
@@ -490,9 +524,9 @@
     "officialYoutube": "Official YouTube",
     "vvBuilder": "Well Dweller Steam Guides",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
     "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "trinketGuides": "Items & Trinkets",
+    "gameInfo": "Game Info",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }

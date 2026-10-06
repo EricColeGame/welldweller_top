@@ -1,0 +1,105 @@
+export const metadata = {
+  title: "Welldweller Switch Guide: Toggle Settings, Spawn Rules, and Platform Support",
+  description: "Learn how the welldweller switch works, which toggles control spawns and aggression, and how to configure the mod safely on your platform.",
+  category: "platforms",
+  date: "2026-10-07",
+}
+
+Few things change the mood of a survival world as quickly as the welldweller — a lurking presence that turns ordinary village wells into places you avoid after dark. If you have ever wanted to dial that fear up or down, the welldweller switch is the control you are looking for, and understanding it takes only a few minutes. This guide walks through the major toggles, explains what each one changes in actual play, and shows you how to configure the welldweller safely on the platform you use.
+
+## What the Welldweller Switch Actually Controls
+
+The term "welldweller switch" gets used two ways in the community, and knowing which one you mean saves confusion. Most often it refers to the configuration toggles — the on/off switches — that decide whether the creature may appear, how often it hunts, and how it behaves once it notices you. Loosely, players also use it when asking whether the welldweller can be turned off entirely, which is really the same question: where is the switch, and what does it change?
+
+In most builds, these toggles live in a plain-text config file that generates the first time you launch a world with the mod loaded. A smaller number of builds also add an in-game settings screen, usually reachable from the mod list or a keybind. Either way, the switches fall into predictable families: spawning, aggression, audio, and despawn behavior.
+
+Because build names and option labels differ, always read the config comments before editing. The labels below describe what the switches *do*, not necessarily what they are called in your download.
+
+## The Core Welldweller Switches at a Glance
+
+| Switch type | What it controls | Typical options | Best for |
+|---|---|---|---|
+| Spawn toggle | Whether the welldweller can appear at all | Enabled / Disabled | Players who want atmosphere without jump scares |
+| Spawn frequency | How often the creature is allowed to attempt a spawn | Low / Normal / High | Tuning tension across long sessions |
+| Aggression | How far it will chase once it spots you | Passive / Normal / Relentless | Hardcore worlds vs. relaxed builds |
+| Audio cues | Ambient sounds and stingers that warn it is near | On / Off / Subtle | Streamers who want a warning, or players who want silence |
+| Despawn behavior | Whether it retreats when you leave the well area or at daylight | Immediate / Delayed / Never | Keeping your base area calm |
+| Target filter | Whether it focuses one player or anyone nearby | Single / Multiplayer | Co-op servers and shared worlds |
+
+Community reports suggest that the spawn toggle and the aggression switch matter most for day-to-day enjoyment. Turning spawns off keeps the atmosphere but removes the threat; lowering aggression keeps the threat but makes it survivable for newer players.
+
+## How to Change Welldweller Switch Settings
+
+Editing the welldweller switch is not difficult, but doing it in the right order prevents a corrupted save or a world that behaves strangely.
+
+| Step | What to do | Why it matters |
+|---|---|---|
+| 1 | Back up your world folder | Lets you roll back if a switch breaks behavior |
+| 2 | Find the config file in your instance's `config` folder | This is where most welldweller switches live |
+| 3 | Open it with a plain text editor | Avoid word processors that add hidden formatting |
+| 4 | Change one switch at a time | Makes it obvious which setting caused a change |
+| 5 | Save, then reload the world or restart the server | Some switches only apply on a fresh load |
+| 6 | Test in an area away from your base | Confirms the new behavior safely |
+
+### If Your Build Has an In-Game Menu
+
+Some versions skip the file entirely and expose the welldweller switch through a settings screen. Open the mod list, select the welldweller entry, and look for a config or options button. Expect a mix of toggles and sliders.
+
+- Toggles apply immediately in most cases.
+- Sliders for frequency or aggression often need a world reload.
+- Server-side settings usually override anything a client changes.
+
+## Spawn Rules: When the Welldweller Switch Matters Most
+
+Even with spawning enabled, the welldweller does not appear anywhere at any time. Community reports point to a handful of conditions that shape how likely an encounter is. Remember that disabling the spawn switch overrides all of them — the conditions only matter when spawning is allowed.
+
+| Condition | Effect on encounter odds | Practical takeaway |
+|---|---|---|
+| Nighttime or very low light | Higher | Sleep through the night if you want a break |
+| Standing near a village well | Higher | Wells are the signature hunting ground |
+| Playing alone | Higher | Grouped players report fewer scares |
+| Loud activity nearby | Higher | Mining and fighting seem to draw attention |
+| Daylight, open terrain | Lower | Travel in the morning when you can |
+
+Player experience also suggests that the welldweller behaves differently depending on how far you wander from water. Staying inland and away from wells is the simplest way to avoid an encounter without touching a single switch.
+
+## Welldweller Switch on Nintendo Switch and Other Platforms
+
+This is the question that brings many players to the topic, and the answer is straightforward: mods of this type are built for Java Edition on PC, and consoles — including the Nintendo Switch — do not allow third-party mods. There is no official welldweller switch on the Nintendo Switch, and no legitimate way to add one.
+
+| Platform | Third-party mod support | Welldweller switch available? | Notes |
+|---|---|---|---|
+| Java Edition (PC) | Full | Yes | Config file, plus an in-game menu in some builds |
+| Bedrock Edition (PC/mobile) | Add-ons only | Rarely | Depends on whether a community port exists |
+| Nintendo Switch | No | No | Console policy blocks external mods |
+| PlayStation / Xbox | No | No | Same restriction as Switch |
+| Java multiplayer servers | Server-side | Yes, admin-controlled | Admins set the switch for everyone |
+
+If you play on a console and want the same tension, the realistic options are limited to vanilla-adjacent add-ons that happen to include a similar creature, or playing on PC. When downloading anything, use established repositories such as [CurseForge](https://www.curseforge.com/minecraft) and confirm your game version on [Minecraft's official site](https://www.minecraft.net) before installing.
+
+## Tips for a Balanced Welldweller Experience
+
+A welldweller that is always on gets old fast, and one that never appears makes the mod pointless. These habits keep it interesting:
+
+- Start with audio cues on and aggression low for your first few nights.
+- Use a low spawn frequency until you learn the creature's patterns.
+- Keep the spawn toggle documented so you can flip it during a recording or stream.
+- Run separate configs for separate worlds instead of one global setting.
+- Test changes in a copy of your world before applying them to a long-running save.
+- Re-check your config after mod updates, since new switches are sometimes added.
+
+## Frequently Asked Questions About the Welldweller Switch
+
+**Can I turn the welldweller off completely?**
+Yes. The spawn toggle is designed for exactly that. Set it to disabled, reload the world, and the creature should stop appearing. Audio ambience may still play depending on your build.
+
+**Does the welldweller switch work on Nintendo Switch?**
+No. The Nintendo Switch does not support third-party mods, so there is no legitimate welldweller switch on that platform. Community reports of console versions should be treated with caution.
+
+**Will changing a switch break my world?**
+Not normally. Config changes affect behavior, not world data. Back up your save first anyway, and change one setting at a time so you can identify the cause of any odd behavior.
+
+**Where do I find the config file?**
+Look inside your game instance's `config` folder, or in a per-world folder if your build stores settings there. The exact filename varies, so search for the mod's name if you cannot spot it immediately.
+
+Once you know which toggles do what, the welldweller switch becomes one of the most useful tools in your modded setup — it lets you keep the atmosphere, control the danger, and decide for yourself how much fear belongs in your world.

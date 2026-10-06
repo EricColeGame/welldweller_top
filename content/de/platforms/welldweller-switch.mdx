@@ -1,0 +1,105 @@
+export const metadata = {
+  title: "Welldweller-Schalter: Toggle-Einstellungen, Spawn-Regeln und Plattformunterstützung",
+  description: "Erfahre, wie der Welldweller-Schalter funktioniert, welche Toggles Spawns und Aggression steuern und wie du die Mod auf deiner Plattform sicher konfigurierst.",
+  category: "platforms",
+  date: "2026-10-07",
+}
+
+Nur wenige Dinge verändern die Stimmung einer Survival-Welt so schnell wie der Welldweller – eine lauernde Präsenz, die gewöhnliche Dorfbrunnen in Orte verwandelt, die man nach Einbruch der Dunkelheit meidet. Wenn du diese Angst schon einmal hoch- oder herunterregulieren wolltest, ist der Welldweller-Schalter genau die Steuerung, die du suchst, und ihn zu verstehen dauert nur wenige Minuten. Dieser Leitfaden geht die wichtigsten Toggles durch, erklärt, was jeder einzelne im tatsächlichen Spiel verändert, und zeigt dir, wie du den Welldweller auf deiner Plattform sicher konfigurierst.
+
+## Was der Welldweller-Schalter tatsächlich steuert
+
+Der Begriff „Welldweller-Schalter“ wird in der Community auf zwei Arten verwendet, und zu wissen, welche gemeint ist, erspart Verwirrung. Meistens bezieht er sich auf die Konfigurations-Toggles – die Ein-/Aus-Schalter –, die entscheiden, ob die Kreatur erscheinen darf, wie oft sie jagt und wie sie sich verhält, sobald sie dich bemerkt. Locker verwenden Spieler ihn auch, wenn sie fragen, ob der Welldweller vollständig ausgeschaltet werden kann, was eigentlich dieselbe Frage ist: Wo ist der Schalter, und was verändert er?
+
+In den meisten Builds befinden sich diese Toggles in einer Klartext-Konfigurationsdatei, die beim ersten Start einer Welt mit geladener Mod erzeugt wird. Eine kleinere Zahl von Builds fügt außerdem einen In-Game-Einstellungsbildschirm hinzu, der normalerweise über die Mod-Liste oder eine Tastenbelegung erreichbar ist. So oder so fallen die Schalter in vorhersehbare Kategorien: Spawning, Aggression, Audio und Despawn-Verhalten.
+
+Da sich Build-Namen und Optionsbezeichnungen unterscheiden, lies vor dem Bearbeiten immer die Kommentare in der Konfiguration. Die folgenden Bezeichnungen beschreiben, was die Schalter *tun*, nicht unbedingt, wie sie in deinem Download heißen.
+
+## Die wichtigsten Welldweller-Schalter auf einen Blick
+
+| Schaltertyp | Was er steuert | Typische Optionen | Am besten für |
+|---|---|---|---|
+| Spawn-Schalter | Ob der Welldweller überhaupt erscheinen kann | Aktiviert / Deaktiviert | Spieler, die Atmosphäre ohne Jump Scares wollen |
+| Spawn-Häufigkeit | Wie oft die Kreatur einen Spawn-Versuch unternehmen darf | Niedrig / Normal / Hoch | Spannung über lange Sitzungen hinweg abstimmen |
+| Aggression | Wie weit sie jagt, sobald sie dich entdeckt | Passiv / Normal / Unerbittlich | Hardcore-Welten vs. entspannte Builds |
+| Audio-Hinweise | Umgebungsgeräusche und Stinger, die warnen, dass sie in der Nähe ist | An / Aus / Dezent | Streamer, die eine Warnung wollen, oder Spieler, die Stille bevorzugen |
+| Despawn-Verhalten | Ob sie sich zurückzieht, wenn du den Brunnenbereich verlässt oder es Tageslicht wird | Sofort / Verzögert / Nie | Dein Basisgebiet ruhig halten |
+| Ziel-Filter | Ob sie sich auf einen Spieler oder alle in der Nähe konzentriert | Einzelspieler / Mehrspieler | Koop-Server und geteilte Welten |
+
+Berichte aus der Community deuten darauf hin, dass der Spawn-Schalter und der Aggressions-Schalter für den täglichen Spielspaß am wichtigsten sind. Spawns auszuschalten bewahrt die Atmosphäre, entfernt aber die Bedrohung; eine niedrigere Aggression behält die Bedrohung bei, macht sie aber für neue Spieler überlebbar.
+
+## Wie du die Einstellungen des Welldweller-Schalters änderst
+
+Den Welldweller-Schalter zu bearbeiten ist nicht schwierig, aber die richtige Reihenfolge verhindert einen beschädigten Spielstand oder eine Welt, die sich seltsam verhält.
+
+| Schritt | Was zu tun ist | Warum es wichtig ist |
+|---|---|---|
+| 1 | Sichere deinen Weltordner | Ermöglicht ein Zurückrollen, falls ein Schalter das Verhalten zerstört |
+| 2 | Finde die Konfigurationsdatei im `config`-Ordner deiner Instanz | Hier liegen die meisten Welldweller-Schalter |
+| 3 | Öffne sie mit einem Klartext-Editor | Vermeide Textverarbeitungsprogramme, die versteckte Formatierungen hinzufügen |
+| 4 | Ändere jeweils nur einen Schalter | Macht deutlich, welche Einstellung eine Änderung verursacht hat |
+| 5 | Speichere und lade dann die Welt neu oder starte den Server neu | Manche Schalter werden erst bei einem frischen Ladevorgang angewendet |
+| 6 | Teste in einem Bereich abseits deiner Basis | Bestätigt das neue Verhalten sicher |
+
+### Wenn dein Build ein In-Game-Menü hat
+
+Manche Versionen überspringen die Datei vollständig und stellen den Welldweller-Schalter über einen Einstellungsbildschirm bereit. Öffne die Mod-Liste, wähle den Welldweller-Eintrag und suche nach einer Konfigurations- oder Optionsschaltfläche. Erwarte eine Mischung aus Toggles und Schiebereglern.
+
+- Toggles werden in den meisten Fällen sofort angewendet.
+- Schieberegler für Häufigkeit oder Aggression erfordern oft ein Neuladen der Welt.
+- Serverseitige Einstellungen überschreiben normalerweise alles, was ein Client ändert.
+
+## Spawn-Regeln: Wann der Welldweller-Schalter am wichtigsten ist
+
+Selbst wenn Spawning aktiviert ist, erscheint der Welldweller nicht überall und jederzeit. Community-Berichte weisen auf eine Handvoll Bedingungen hin, die beeinflussen, wie wahrscheinlich eine Begegnung ist. Denk daran, dass das Deaktivieren des Spawn-Schalters alle außer Kraft setzt – die Bedingungen zählen nur, wenn Spawning erlaubt ist.
+
+| Bedingung | Auswirkung auf die Begegnungswahrscheinlichkeit | Praktische Konsequenz |
+|---|---|---|
+| Nacht oder sehr wenig Licht | Höher | Schlafe die Nacht durch, wenn du eine Pause willst |
+| In der Nähe eines Dorfbrunnens stehen | Höher | Brunnen sind das bevorzugte Jagdgebiet |
+| Allein spielen | Höher | Spieler in Gruppen berichten von weniger Schreckmomenten |
+| Laute Aktivität in der Nähe | Höher | Bergbau und Kämpfe scheinen Aufmerksamkeit zu erregen |
+| Tageslicht, offenes Gelände | Niedriger | Reise am Morgen, wenn möglich |
+
+Die Spielerfahrung deutet auch darauf hin, dass sich der Welldweller anders verhält, je nachdem, wie weit du dich vom Wasser entfernst. Im Landesinneren und fern von Brunnen zu bleiben ist der einfachste Weg, eine Begegnung zu vermeiden, ohne einen einzigen Schalter anzufassen.
+
+## Welldweller-Schalter auf Nintendo Switch und anderen Plattformen
+
+Das ist die Frage, die viele Spieler zu diesem Thema bringt, und die Antwort ist eindeutig: Mods dieser Art sind für die Java Edition auf dem PC entwickelt, und Konsolen – einschließlich der Nintendo Switch – erlauben keine Drittanbieter-Mods. Es gibt keinen offiziellen Welldweller-Schalter auf der Nintendo Switch und keine legitime Möglichkeit, einen hinzuzufügen.
+
+| Plattform | Unterstützung für Drittanbieter-Mods | Welldweller-Schalter verfügbar? | Hinweise |
+|---|---|---|---|
+| Java Edition (PC) | Vollständig | Ja | Konfigurationsdatei, plus ein In-Game-Menü in manchen Builds |
+| Bedrock Edition (PC/Mobil) | Nur Add-ons | Selten | Hängt davon ab, ob ein Community-Port existiert |
+| Nintendo Switch | Nein | Nein | Konsolenrichtlinie blockiert externe Mods |
+| PlayStation / Xbox | Nein | Nein | Dieselbe Einschränkung wie bei Switch |
+| Java-Mehrspieler-Server | Serverseitig | Ja, von Admins gesteuert | Admins legen den Schalter für alle fest |
+
+Wenn du auf einer Konsole spielst und dieselbe Spannung willst, sind die realistischen Optionen auf Vanilla-nahe Add-ons beschränkt, die zufällig eine ähnliche Kreatur enthalten, oder auf das Spielen am PC. Wenn du etwas herunterlädst, nutze etablierte Repositories wie [CurseForge](https://www.curseforge.com/minecraft) und bestätige deine Spielversion auf [Minecrafts offizieller Website](https://www.minecraft.net), bevor du installierst.
+
+## Tipps für ein ausgewogenes Welldweller-Erlebnis
+
+Ein Welldweller, der immer aktiv ist, nutzt sich schnell ab, und einer, der nie erscheint, macht die Mod sinnlos. Diese Gewohnheiten halten es interessant:
+
+- Beginne deine ersten paar Nächte mit aktivierten Audio-Hinweisen und niedriger Aggression.
+- Verwende eine niedrige Spawn-Häufigkeit, bis du die Muster der Kreatur kennst.
+- Dokumentiere den Spawn-Schalter, damit du ihn während einer Aufnahme oder eines Streams umlegen kannst.
+- Verwende separate Konfigurationen für separate Welten statt einer globalen Einstellung.
+- Teste Änderungen in einer Kopie deiner Welt, bevor du sie auf einen lang laufenden Spielstand anwendest.
+- Überprüfe deine Konfiguration nach Mod-Updates erneut, da manchmal neue Schalter hinzugefügt werden.
+
+## Häufig gestellte Fragen zum Welldweller-Schalter
+
+**Kann ich den Welldweller komplett ausschalten?**
+Ja. Der Spawn-Schalter ist genau dafür gedacht. Stelle ihn auf deaktiviert, lade die Welt neu, und die Kreatur sollte nicht mehr erscheinen. Je nach Build kann die Audio-Kulisse weiterhin abgespielt werden.
+
+**Funktioniert der Welldweller-Schalter auf der Nintendo Switch?**
+Nein. Die Nintendo Switch unterstützt keine Drittanbieter-Mods, daher gibt es auf dieser Plattform keinen legitimen Welldweller-Schalter. Community-Berichte über Konsolenversionen sollten mit Vorsicht behandelt werden.
+
+**Kann das Ändern eines Schalters meine Welt beschädigen?**
+Normalerweise nicht. Konfigurationsänderungen betreffen das Verhalten, nicht die Weltdaten. Sichere deinen Spielstand trotzdem zuerst und ändere jeweils nur eine Einstellung, damit du die Ursache für seltsames Verhalten identifizieren kannst.
+
+**Wo finde ich die Konfigurationsdatei?**
+Suche im `config`-Ordner deiner Spielinstanz oder in einem Pro-Welt-Ordner, falls dein Build die Einstellungen dort speichert. Der genaue Dateiname variiert, suche also nach dem Namen der Mod, wenn du sie nicht sofort findest.
+
+Sobald du weißt, welche Toggles was bewirken, wird der Welldweller-Schalter zu einem der nützlichsten Werkzeuge in deinem Mod-Setup – er lässt dich die Atmosphäre bewahren, die Gefahr kontrollieren und selbst entscheiden, wie viel Angst in deine Welt gehört.
